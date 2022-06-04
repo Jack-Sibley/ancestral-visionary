@@ -1,0 +1,6 @@
+[book]
+authors = ["Jack Sibley"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Comprehensive Rules of Magic: The Gathering"
