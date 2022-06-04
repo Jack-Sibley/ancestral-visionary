@@ -1,13 +1,9 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
-inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
+name: 'MTG to Markdown'
+description: 'Convert Magic: The Gathering Rules documents to mdbook compatible markdown'
+inputs: 
+  target-file:
+    description: 'Path to MTG rules file'
     required: true
-    default: 'World'
-outputs:
-  time: # id of output
-    description: 'The time we greeted you'
 runs:
   using: 'node16'
-  main: 'index.js'
+  main: 'dist/index.js'
