@@ -10,3 +10,4 @@ build-dir = "docs"
 
 [output.html]
 site-url = "ancestral.vision"
+no-section-label = true
