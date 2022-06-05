@@ -1,0 +1,299 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Interaction of Continuous Effects - Magic: The Gathering Comprehensive Rules</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> Game Concepts</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../game-concepts/general.html"><strong aria-hidden="true">2.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../game-concepts/the-magic-golden-rules.html"><strong aria-hidden="true">2.2.</strong> The Magic Golden Rules</a></li><li class="chapter-item expanded "><a href="../game-concepts/players.html"><strong aria-hidden="true">2.3.</strong> Players</a></li><li class="chapter-item expanded "><a href="../game-concepts/starting-the-game.html"><strong aria-hidden="true">2.4.</strong> Starting the Game</a></li><li class="chapter-item expanded "><a href="../game-concepts/ending-the-game.html"><strong aria-hidden="true">2.5.</strong> Ending the Game</a></li><li class="chapter-item expanded "><a href="../game-concepts/colors.html"><strong aria-hidden="true">2.6.</strong> Colors</a></li><li class="chapter-item expanded "><a href="../game-concepts/mana.html"><strong aria-hidden="true">2.7.</strong> Mana</a></li><li class="chapter-item expanded "><a href="../game-concepts/numbers-and-symbols.html"><strong aria-hidden="true">2.8.</strong> Numbers and Symbols</a></li><li class="chapter-item expanded "><a href="../game-concepts/cards.html"><strong aria-hidden="true">2.9.</strong> Cards</a></li><li class="chapter-item expanded "><a href="../game-concepts/objects.html"><strong aria-hidden="true">2.10.</strong> Objects</a></li><li class="chapter-item expanded "><a href="../game-concepts/permanents.html"><strong aria-hidden="true">2.11.</strong> Permanents</a></li><li class="chapter-item expanded "><a href="../game-concepts/tokens.html"><strong aria-hidden="true">2.12.</strong> Tokens</a></li><li class="chapter-item expanded "><a href="../game-concepts/spells.html"><strong aria-hidden="true">2.13.</strong> Spells</a></li><li class="chapter-item expanded "><a href="../game-concepts/abilities.html"><strong aria-hidden="true">2.14.</strong> Abilities</a></li><li class="chapter-item expanded "><a href="../game-concepts/emblems.html"><strong aria-hidden="true">2.15.</strong> Emblems</a></li><li class="chapter-item expanded "><a href="../game-concepts/targets.html"><strong aria-hidden="true">2.16.</strong> Targets</a></li><li class="chapter-item expanded "><a href="../game-concepts/special-actions.html"><strong aria-hidden="true">2.17.</strong> Special Actions</a></li><li class="chapter-item expanded "><a href="../game-concepts/timing-and-priority.html"><strong aria-hidden="true">2.18.</strong> Timing and Priority</a></li><li class="chapter-item expanded "><a href="../game-concepts/costs.html"><strong aria-hidden="true">2.19.</strong> Costs</a></li><li class="chapter-item expanded "><a href="../game-concepts/life.html"><strong aria-hidden="true">2.20.</strong> Life</a></li><li class="chapter-item expanded "><a href="../game-concepts/damage.html"><strong aria-hidden="true">2.21.</strong> Damage</a></li><li class="chapter-item expanded "><a href="../game-concepts/drawing-a-card.html"><strong aria-hidden="true">2.22.</strong> Drawing a Card</a></li><li class="chapter-item expanded "><a href="../game-concepts/counters.html"><strong aria-hidden="true">2.23.</strong> Counters</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> Parts of a Card</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../parts-of-a-card/general.html"><strong aria-hidden="true">3.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/name.html"><strong aria-hidden="true">3.2.</strong> Name</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/mana-cost-and-color.html"><strong aria-hidden="true">3.3.</strong> Mana Cost and Color</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/illustration.html"><strong aria-hidden="true">3.4.</strong> Illustration</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/color-indicator.html"><strong aria-hidden="true">3.5.</strong> Color Indicator</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/type-line.html"><strong aria-hidden="true">3.6.</strong> Type Line</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/expansion-symbol.html"><strong aria-hidden="true">3.7.</strong> Expansion Symbol</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/text-box.html"><strong aria-hidden="true">3.8.</strong> Text Box</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/powertoughness.html"><strong aria-hidden="true">3.9.</strong> Power/Toughness</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/loyalty.html"><strong aria-hidden="true">3.10.</strong> Loyalty</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/hand-modifier.html"><strong aria-hidden="true">3.11.</strong> Hand Modifier</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/life-modifier.html"><strong aria-hidden="true">3.12.</strong> Life Modifier</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/information-below-the-text-box.html"><strong aria-hidden="true">3.13.</strong> Information Below the Text Box</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> Card Types</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../card-types/general.html"><strong aria-hidden="true">4.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../card-types/artifacts.html"><strong aria-hidden="true">4.2.</strong> Artifacts</a></li><li class="chapter-item expanded "><a href="../card-types/creatures.html"><strong aria-hidden="true">4.3.</strong> Creatures</a></li><li class="chapter-item expanded "><a href="../card-types/enchantments.html"><strong aria-hidden="true">4.4.</strong> Enchantments</a></li><li class="chapter-item expanded "><a href="../card-types/instants.html"><strong aria-hidden="true">4.5.</strong> Instants</a></li><li class="chapter-item expanded "><a href="../card-types/lands.html"><strong aria-hidden="true">4.6.</strong> Lands</a></li><li class="chapter-item expanded "><a href="../card-types/planeswalkers.html"><strong aria-hidden="true">4.7.</strong> Planeswalkers</a></li><li class="chapter-item expanded "><a href="../card-types/sorceries.html"><strong aria-hidden="true">4.8.</strong> Sorceries</a></li><li class="chapter-item expanded "><a href="../card-types/tribals.html"><strong aria-hidden="true">4.9.</strong> Tribals</a></li><li class="chapter-item expanded "><a href="../card-types/dungeons.html"><strong aria-hidden="true">4.10.</strong> Dungeons</a></li><li class="chapter-item expanded "><a href="../card-types/planes.html"><strong aria-hidden="true">4.11.</strong> Planes</a></li><li class="chapter-item expanded "><a href="../card-types/phenomena.html"><strong aria-hidden="true">4.12.</strong> Phenomena</a></li><li class="chapter-item expanded "><a href="../card-types/vanguards.html"><strong aria-hidden="true">4.13.</strong> Vanguards</a></li><li class="chapter-item expanded "><a href="../card-types/schemes.html"><strong aria-hidden="true">4.14.</strong> Schemes</a></li><li class="chapter-item expanded "><a href="../card-types/conspiracies.html"><strong aria-hidden="true">4.15.</strong> Conspiracies</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.</strong> Zones</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../zones/general.html"><strong aria-hidden="true">5.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../zones/library.html"><strong aria-hidden="true">5.2.</strong> Library</a></li><li class="chapter-item expanded "><a href="../zones/hand.html"><strong aria-hidden="true">5.3.</strong> Hand</a></li><li class="chapter-item expanded "><a href="../zones/battlefield.html"><strong aria-hidden="true">5.4.</strong> Battlefield</a></li><li class="chapter-item expanded "><a href="../zones/graveyard.html"><strong aria-hidden="true">5.5.</strong> Graveyard</a></li><li class="chapter-item expanded "><a href="../zones/stack.html"><strong aria-hidden="true">5.6.</strong> Stack</a></li><li class="chapter-item expanded "><a href="../zones/exile.html"><strong aria-hidden="true">5.7.</strong> Exile</a></li><li class="chapter-item expanded "><a href="../zones/ante.html"><strong aria-hidden="true">5.8.</strong> Ante</a></li><li class="chapter-item expanded "><a href="../zones/command.html"><strong aria-hidden="true">5.9.</strong> Command</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> Turn Structure</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../turn-structure/general.html"><strong aria-hidden="true">6.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../turn-structure/beginning-phase.html"><strong aria-hidden="true">6.2.</strong> Beginning Phase</a></li><li class="chapter-item expanded "><a href="../turn-structure/untap-step.html"><strong aria-hidden="true">6.3.</strong> Untap Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/upkeep-step.html"><strong aria-hidden="true">6.4.</strong> Upkeep Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/draw-step.html"><strong aria-hidden="true">6.5.</strong> Draw Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/main-phase.html"><strong aria-hidden="true">6.6.</strong> Main Phase</a></li><li class="chapter-item expanded "><a href="../turn-structure/combat-phase.html"><strong aria-hidden="true">6.7.</strong> Combat Phase</a></li><li class="chapter-item expanded "><a href="../turn-structure/beginning-of-combat-step.html"><strong aria-hidden="true">6.8.</strong> Beginning of Combat Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/declare-attackers-step.html"><strong aria-hidden="true">6.9.</strong> Declare Attackers Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/declare-blockers-step.html"><strong aria-hidden="true">6.10.</strong> Declare Blockers Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/combat-damage-step.html"><strong aria-hidden="true">6.11.</strong> Combat Damage Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/end-of-combat-step.html"><strong aria-hidden="true">6.12.</strong> End of Combat Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/ending-phase.html"><strong aria-hidden="true">6.13.</strong> Ending Phase</a></li><li class="chapter-item expanded "><a href="../turn-structure/end-step.html"><strong aria-hidden="true">6.14.</strong> End Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/cleanup-step.html"><strong aria-hidden="true">6.15.</strong> Cleanup Step</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Spells, Abilities, and Effects</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/general.html"><strong aria-hidden="true">7.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/casting-spells.html"><strong aria-hidden="true">7.2.</strong> Casting Spells</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/activating-activated-abilities.html"><strong aria-hidden="true">7.3.</strong> Activating Activated Abilities</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/handling-triggered-abilities.html"><strong aria-hidden="true">7.4.</strong> Handling Triggered Abilities</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/handling-static-abilities.html"><strong aria-hidden="true">7.5.</strong> Handling Static Abilities</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/mana-abilities.html"><strong aria-hidden="true">7.6.</strong> Mana Abilities</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/loyalty-abilities.html"><strong aria-hidden="true">7.7.</strong> Loyalty Abilities</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/linked-abilities.html"><strong aria-hidden="true">7.8.</strong> Linked Abilities</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/resolving-spells-and-abilities.html"><strong aria-hidden="true">7.9.</strong> Resolving Spells and Abilities</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/effects.html"><strong aria-hidden="true">7.10.</strong> Effects</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/one-shot-effects.html"><strong aria-hidden="true">7.11.</strong> One-Shot Effects</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/continuous-effects.html"><strong aria-hidden="true">7.12.</strong> Continuous Effects</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/text-changing-effects.html"><strong aria-hidden="true">7.13.</strong> Text-Changing Effects</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/interaction-of-continuous-effects.html" class="active"><strong aria-hidden="true">7.14.</strong> Interaction of Continuous Effects</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/replacement-effects.html"><strong aria-hidden="true">7.15.</strong> Replacement Effects</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/prevention-effects.html"><strong aria-hidden="true">7.16.</strong> Prevention Effects</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/interaction-of-replacement-andor-prevention-effects.html"><strong aria-hidden="true">7.17.</strong> Interaction of Replacement and/or Prevention Effects</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> Additional Rules</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../additional-rules/general.html"><strong aria-hidden="true">8.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../additional-rules/keyword-actions.html"><strong aria-hidden="true">8.2.</strong> Keyword Actions</a></li><li class="chapter-item expanded "><a href="../additional-rules/keyword-abilities.html"><strong aria-hidden="true">8.3.</strong> Keyword Abilities</a></li><li class="chapter-item expanded "><a href="../additional-rules/turn-based-actions.html"><strong aria-hidden="true">8.4.</strong> Turn-Based Actions</a></li><li class="chapter-item expanded "><a href="../additional-rules/state-based-actions.html"><strong aria-hidden="true">8.5.</strong> State-Based Actions</a></li><li class="chapter-item expanded "><a href="../additional-rules/flipping-a-coin.html"><strong aria-hidden="true">8.6.</strong> Flipping a Coin</a></li><li class="chapter-item expanded "><a href="../additional-rules/rolling-a-die.html"><strong aria-hidden="true">8.7.</strong> Rolling a Die</a></li><li class="chapter-item expanded "><a href="../additional-rules/copying-objects.html"><strong aria-hidden="true">8.8.</strong> Copying Objects</a></li><li class="chapter-item expanded "><a href="../additional-rules/face-down-spells-and-permanents.html"><strong aria-hidden="true">8.9.</strong> Face-Down Spells and Permanents</a></li><li class="chapter-item expanded "><a href="../additional-rules/split-cards.html"><strong aria-hidden="true">8.10.</strong> Split Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/flip-cards.html"><strong aria-hidden="true">8.11.</strong> Flip Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/leveler-cards.html"><strong aria-hidden="true">8.12.</strong> Leveler Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/double-faced-cards.html"><strong aria-hidden="true">8.13.</strong> Double-Faced Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/meld-cards.html"><strong aria-hidden="true">8.14.</strong> Meld Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/substitute-cards.html"><strong aria-hidden="true">8.15.</strong> Substitute Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/saga-cards.html"><strong aria-hidden="true">8.16.</strong> Saga Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/adventurer-cards.html"><strong aria-hidden="true">8.17.</strong> Adventurer Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/class-cards.html"><strong aria-hidden="true">8.18.</strong> Class Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/controlling-another-player.html"><strong aria-hidden="true">8.19.</strong> Controlling Another Player</a></li><li class="chapter-item expanded "><a href="../additional-rules/ending-turns-and-phases.html"><strong aria-hidden="true">8.20.</strong> Ending Turns and Phases</a></li><li class="chapter-item expanded "><a href="../additional-rules/the-monarch.html"><strong aria-hidden="true">8.21.</strong> The Monarch</a></li><li class="chapter-item expanded "><a href="../additional-rules/initiative.html"><strong aria-hidden="true">8.22.</strong> Initiative</a></li><li class="chapter-item expanded "><a href="../additional-rules/restarting-the-game.html"><strong aria-hidden="true">8.23.</strong> Restarting the Game</a></li><li class="chapter-item expanded "><a href="../additional-rules/subgames.html"><strong aria-hidden="true">8.24.</strong> Subgames</a></li><li class="chapter-item expanded "><a href="../additional-rules/merging-with-permanents.html"><strong aria-hidden="true">8.25.</strong> Merging with Permanents</a></li><li class="chapter-item expanded "><a href="../additional-rules/day-and-night.html"><strong aria-hidden="true">8.26.</strong> Day and Night</a></li><li class="chapter-item expanded "><a href="../additional-rules/taking-shortcuts.html"><strong aria-hidden="true">8.27.</strong> Taking Shortcuts</a></li><li class="chapter-item expanded "><a href="../additional-rules/handling-illegal-actions.html"><strong aria-hidden="true">8.28.</strong> Handling Illegal Actions</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> Multiplayer Rules</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../multiplayer-rules/general.html"><strong aria-hidden="true">9.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/limited-range-of-influence-option.html"><strong aria-hidden="true">9.2.</strong> Limited Range of Influence Option</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/attack-multiple-players-option.html"><strong aria-hidden="true">9.3.</strong> Attack Multiple Players Option</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/attack-left-and-attack-right-options.html"><strong aria-hidden="true">9.4.</strong> Attack Left and Attack Right Options</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/deploy-creatures-option.html"><strong aria-hidden="true">9.5.</strong> Deploy Creatures Option</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/shared-team-turns-option.html"><strong aria-hidden="true">9.6.</strong> Shared Team Turns Option</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/free-for-all-variant.html"><strong aria-hidden="true">9.7.</strong> Free-for-All Variant</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/grand-melee-variant.html"><strong aria-hidden="true">9.8.</strong> Grand Melee Variant</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/team-vs.-team-variant.html"><strong aria-hidden="true">9.9.</strong> Team vs. Team Variant</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/emperor-variant.html"><strong aria-hidden="true">9.10.</strong> Emperor Variant</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/two-headed-giant-variant.html"><strong aria-hidden="true">9.11.</strong> Two-Headed Giant Variant</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/alternating-teams-variant.html"><strong aria-hidden="true">9.12.</strong> Alternating Teams Variant</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.</strong> Casual Variants</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../casual-variants/general.html"><strong aria-hidden="true">10.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../casual-variants/planechase.html"><strong aria-hidden="true">10.2.</strong> Planechase</a></li><li class="chapter-item expanded "><a href="../casual-variants/vanguard.html"><strong aria-hidden="true">10.3.</strong> Vanguard</a></li><li class="chapter-item expanded "><a href="../casual-variants/commander.html"><strong aria-hidden="true">10.4.</strong> Commander</a></li><li class="chapter-item expanded "><a href="../casual-variants/archenemy.html"><strong aria-hidden="true">10.5.</strong> Archenemy</a></li><li class="chapter-item expanded "><a href="../casual-variants/conspiracy-draft.html"><strong aria-hidden="true">10.6.</strong> Conspiracy Draft</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Magic: The Gathering Comprehensive Rules</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="613-interaction-of-continuous-effects"><a class="header" href="#613-interaction-of-continuous-effects"><strong>613.</strong> Interaction of Continuous Effects</a></h1>
+<p><strong>613.1.</strong> The values of an object’s characteristics are determined by starting with the actual object. For a card, that means the values of the characteristics printed on that card. For a token or a copy of a spell or card, that means the values of the characteristics defined by the effect that created it. Then all applicable continuous effects are applied in a series of layers in the following order:</p>
+<ul>
+<li><strong>613.1a</strong> Layer 1: Rules and effects that modify copiable values are applied.</li>
+<li><strong>613.1b</strong> Layer 2: Control-changing effects are applied.</li>
+<li><strong>613.1c</strong> Layer 3: Text-changing effects are applied. See rule 612, “Text-Changing Effects.”</li>
+<li><strong>613.1d</strong> Layer 4: Type-changing effects are applied. These include effects that change an object’s card type, subtype, and/or supertype.</li>
+<li><strong>613.1e</strong> Layer 5: Color-changing effects are applied.</li>
+<li><strong>613.1f</strong> Layer 6: Ability-adding effects, keyword counters, ability-removing effects, and effects that say an object can’t have an ability are applied.</li>
+<li><strong>613.1g</strong> Layer 7: Power- and/or toughness-changing effects are applied.</li>
+</ul>
+<p><strong>613.2.</strong> Within layer 1, apply effects in a series of sublayers in the order described below. Within each sublayer, apply effects in timestamp order (see rule 613.7). Note that dependency may alter the order in which effects are applied within a sublayer. (See rule 613.8.)</p>
+<ul>
+<li><strong>613.2a</strong> Layer 1a: Copiable effects are applied. This includes copy effects (see rule 707, “Copying Objects”) and changes to an object’s characteristics determined by merging an object with a permanent (see rule 724, “Merging with Permanents”). “As . . . enters the battlefield” and “as . . . is turned face up” abilities generate copiable effects if they set power and toughness, even if they also define other characteristics.</li>
+<li><strong>613.2b</strong> Layer 1b: Face-down spells and permanents have their characteristics modified as defined in rule 708.2.</li>
+<li><strong>613.2c</strong> After all rules and effects in layer 1 have been applied, the object’s characteristics are its copiable values. (See rule 707.2.)</li>
+</ul>
+<p><strong>613.3.</strong> Within layers 2–6, apply effects from characteristic-defining abilities first (see rule 604.3), then all other effects in timestamp order (see rule 613.7). Note that dependency may alter the order in which effects are applied within a layer. (See rule 613.8.)</p>
+<p><strong>613.4.</strong> Within layer 7, apply effects in a series of sublayers in the order described below. Within each sublayer, apply effects in timestamp order. (See rule 613.7.) Note that dependency may alter the order in which effects are applied within a sublayer. (See rule 613.8.)</p>
+<ul>
+<li>
+<p><strong>613.4a</strong> Layer 7a: Effects from characteristic-defining abilities that define power and/or toughness are applied. See rule 604.3.</p>
+</li>
+<li>
+<p><strong>613.4b</strong> Layer 7b: Effects that set power and/or toughness to a specific number or value are applied. Effects that refer to the base power and/or toughness of a creature apply in this layer.</p>
+</li>
+<li>
+<p><strong>613.4c</strong> Layer 7c: Effects and counters that modify power and/or toughness (but don’t set power and/or toughness to a specific number or value) are applied.</p>
+</li>
+<li>
+<p><strong>613.4d</strong> Layer 7d: Effects that switch a creature’s power and toughness are applied. Such effects take the value of power and apply it to the creature’s toughness, and take the value of toughness and apply it to the creature’s power.</p>
+<pre><code>Example: A 1/3 creature is given +0/+1 by an effect. Then another effect switches the creature’s power and toughness. Its new power and toughness is 4/1. A new effect gives the creature +5/+0. Its “unswitched” power and toughness would be 6/4, so its actual power and toughness is 4/6.
+
+Example: A 1/3 creature is given +0/+1 by an effect. Then another effect switches the creature’s power and toughness. Its new power and toughness is 4/1. If the +0/+1 effect ends before the switch effect ends, the creature becomes 3/1.
+
+Example: A 1/3 creature is given +0/+1 by an effect. Then another effect switches the creature’s power and toughness. Then another effect switches its power and toughness again. The two switches essentially cancel each other, and the creature becomes 1/4.
+</code></pre>
+</li>
+</ul>
+<p><strong>613.5.</strong> The application of continuous effects as described by the layer system is continually and automatically performed by the game. All resulting changes to an object’s characteristics are instantaneous.</p>
+<pre><code>Example: Honor of the Pure is an enchantment that reads “White creatures you control get +1/+1.” Honor of the Pure and a 2/2 black creature are on the battlefield under your control. If an effect then turns the creature white (layer 5), it gets +1/+1 from Honor of the Pure (layer 7c), becoming 3/3. If the creature’s color is later changed to red (layer 5), Honor of the Pure’s effect stops applying to it, and it will return to being 2/2.
+
+Example: Gray Ogre, a 2/2 creature, is on the battlefield. An effect puts a +1/+1 counter on it (layer 7d), making it 3/3. A spell targeting it that says “Target creature gets +4/+4 until end of turn” resolves (layer 7c), making it 7/7. An enchantment that says “Creatures you control get +0/+2” enters the battlefield (layer 7c), making it 7/9. An effect that says “Target creature becomes 0/1 until end of turn” is applied to it (layer 7b), making it 5/8 (0/1, with +4/+4 from the resolved spell, +0/+2 from the enchantment, and +1/+1 from the counter).
+</code></pre>
+<p><strong>613.6.</strong> If an effect should be applied in different layers and/or sublayers, the parts of the effect each apply in their appropriate ones. If an effect starts to apply in one layer and/or sublayer, it will continue to be applied to the same set of objects in each other applicable layer and/or sublayer, even if the ability generating the effect is removed during this process.</p>
+<pre><code>Example: An effect that reads “Wild Mongrel gets +1/+1 and becomes the color of your choice until end of turn” is both a power- and toughness-changing effect and a color-changing effect. The “becomes the color of your choice” part is applied in layer 5, and then the “gets +1/+1” part is applied in layer 7c.
+
+Example: Act of Treason has an effect that reads “Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.” This is both a control-changing effect and an effect that adds an ability to an object. The “gain control” part is applied in layer 2, and then the “it gains haste” part is applied in layer 6.
+
+Example: An effect that reads “All noncreature artifacts become 2/2 artifact creatures until end of turn” is both a type-changing effect and a power- and toughness-setting effect. The type-changing effect is applied to all noncreature artifacts in layer 4 and the power- and toughness-setting effect is applied to those same permanents in layer 7b, even though those permanents aren’t noncreature artifacts by then.
+
+Example: Svogthos, the Restless Tomb, is on the battlefield. An effect that says “Until end of turn, target land becomes a 3/3 creature that’s still a land” is applied to it (layers 4 and 7b). An effect that says “Target creature gets +1/+1 until end of turn” is applied to it (layer 7c), making it a 4/4 land creature. Then while you have ten creature cards in your graveyard, you activate Svogthos’s ability: “Until end of turn, Svogthos, the Restless Tomb becomes a black and green Plant Zombie creature with ‘This creature’s power and toughness are each equal to the number of creature cards in your graveyard.’ It’s still a land.” (layers 4, 5, and 7b). It becomes an 11/11 land creature. If a creature card enters or leaves your graveyard, Svogthos’s power and toughness will be modified accordingly. If the first effect is applied to it again, it will become a 4/4 land creature again.
+</code></pre>
+<p><strong>613.7.</strong> Within a layer or sublayer, determining which order effects are applied in is usually done using a timestamp system. An effect with an earlier timestamp is applied before an effect with a later timestamp.</p>
+<ul>
+<li>
+<p><strong>613.7a</strong> A continuous effect generated by a static ability has the same timestamp as the object the static ability is on, or the timestamp of the effect that created the ability, whichever is later. If the effect that created the ability has the later timestamp and the object the ability is on receives a new timestamp, each continuous effect generated by static abilities of that object receives a new timestamp as well, but the relative order of those timestamps remains the same.</p>
+<pre><code>Example: Rune of Flight is an Aura that grants enchanted Equipment “Equipped creature has flying.” A player attaches Rune of Flight to Colossus Hammer, an Equipment with “Equipped creature gets +10/+10 and loses flying.” The ability granted by Rune of Flight shares Rune of Flight’s timestamp because it is later than Colossus Hammer’s timestamp. If Colossus Hammer becomes attached to a creature, both of its abilities receive new timestamps (see rule 613.7e), but the relative order of those timestamps remains the same.
+</code></pre>
+</li>
+<li>
+<p><strong>613.7b</strong> A continuous effect generated by the resolution of a spell or ability receives a timestamp at the time it’s created.</p>
+</li>
+<li>
+<p><strong>613.7c</strong> Each counter receives a timestamp as it’s put on an object or player. If that object or player already has a counter of that kind on it, each counter of that kind receives a new timestamp identical to that of the new counter.</p>
+</li>
+<li>
+<p><strong>613.7d</strong> An object receives a timestamp at the time it enters a zone.</p>
+</li>
+<li>
+<p><strong>613.7e</strong> An Aura, Equipment, or Fortification receives a new timestamp each time it becomes attached to an object or player.</p>
+</li>
+<li>
+<p><strong>613.7f</strong> A permanent receives a new timestamp each time it turns face up or face down.</p>
+</li>
+<li>
+<p><strong>613.7g</strong> A transforming double-faced permanent receives a new timestamp each time it transforms.</p>
+</li>
+<li>
+<p><strong>613.7h</strong> A face-up plane card, phenomenon card, or scheme card receives a timestamp at the time it’s turned face up.</p>
+</li>
+<li>
+<p><strong>613.7i</strong> A face-up vanguard card receives a timestamp at the beginning of the game.</p>
+</li>
+<li>
+<p><strong>613.7j</strong> A conspiracy card receives a timestamp at the beginning of the game. If it’s face down, it receives a new timestamp at the time it turns face up.</p>
+</li>
+<li>
+<p><strong>613.7k</strong> If two or more objects would receive a timestamp simultaneously, such as by entering a zone simultaneously or becoming attached simultaneously, their relative timestamps are determined in APNAP order (see rule 101.4). Objects controlled by the active player (or owned by the active player, if they have no controller) have an earlier relative timestamp in the order of that player’s choice, followed by each other player in turn order.</p>
+</li>
+</ul>
+<p><strong>613.8.</strong> Within a layer or sublayer, determining which order effects are applied in is sometimes done using a dependency system. If a dependency exists, it will override the timestamp system.</p>
+<ul>
+<li><strong>613.8a</strong> An effect is said to “depend on” another if (a) it’s applied in the same layer (and, if applicable, sublayer) as the other effect; (b) applying the other would change the text or the existence of the first effect, what it applies to, or what it does to any of the things it applies to; and (c) neither effect is from a characteristic-defining ability or both effects are from characteristic-defining abilities. Otherwise, the effect is considered to be independent of the other effect.</li>
+<li><strong>613.8b</strong> An effect dependent on one or more other effects waits to apply until just after all of those effects have been applied. If multiple dependent effects would apply simultaneously in this way, they’re applied in timestamp order relative to each other. If several dependent effects form a dependency loop, then this rule is ignored and the effects in the dependency loop are applied in timestamp order.</li>
+<li><strong>613.8c</strong> After each effect is applied, the order of remaining effects is reevaluated and may change if an effect that has not yet been applied becomes dependent on or independent of one or more other effects that have not yet been applied.</li>
+</ul>
+<p><strong>613.9.</strong> One continuous effect can override another. Sometimes the results of one effect determine whether another effect applies or what another effect does.</p>
+<pre><code>Example: Two effects are affecting the same creature: one from an Aura that says “Enchanted creature has flying” and one from an Aura that says “Enchanted creature loses flying.” Neither of these depends on the other, since nothing changes what they affect or what they’re doing to it. Applying them in timestamp order means the one that was generated last “wins.” The same process would be followed, and the same result reached, if either of the effects had a duration (such as “Target creature loses flying until end of turn”) or came from a non-Aura source (such as “All creatures lose flying”).
+
+Example: One effect reads, “White creatures get +1/+1,” and another reads, “Enchanted creature is white.” The enchanted creature gets +1/+1 from the first effect, regardless of its previous color.
+</code></pre>
+<p><strong>613.10.</strong> Some continuous effects affect players rather than objects. For example, an effect might give a player protection from red. All such effects are applied in timestamp order after the determination of objects’ characteristics. See also the rules for timestamp order and dependency (rules 613.7 and 613.8).</p>
+<p><strong>613.11.</strong> Some continuous effects affect game rules rather than objects. For example, effects may modify a player’s maximum hand size, or say that a creature must attack this turn if able. These effects are applied after all other continuous effects have been applied. Continuous effects that affect the costs of spells or abilities are applied according to the order specified in rule 601.2f. All other such effects are applied in timestamp order. See also the rules for timestamp order and dependency (rules 613.7 and 613.8).</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../spells-abilities-and-effects/text-changing-effects.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../spells-abilities-and-effects/replacement-effects.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../spells-abilities-and-effects/text-changing-effects.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../spells-abilities-and-effects/replacement-effects.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

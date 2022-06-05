@@ -1,0 +1,286 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Numbers and Symbols - Magic: The Gathering Comprehensive Rules</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> Game Concepts</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../game-concepts/general.html"><strong aria-hidden="true">2.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../game-concepts/the-magic-golden-rules.html"><strong aria-hidden="true">2.2.</strong> The Magic Golden Rules</a></li><li class="chapter-item expanded "><a href="../game-concepts/players.html"><strong aria-hidden="true">2.3.</strong> Players</a></li><li class="chapter-item expanded "><a href="../game-concepts/starting-the-game.html"><strong aria-hidden="true">2.4.</strong> Starting the Game</a></li><li class="chapter-item expanded "><a href="../game-concepts/ending-the-game.html"><strong aria-hidden="true">2.5.</strong> Ending the Game</a></li><li class="chapter-item expanded "><a href="../game-concepts/colors.html"><strong aria-hidden="true">2.6.</strong> Colors</a></li><li class="chapter-item expanded "><a href="../game-concepts/mana.html"><strong aria-hidden="true">2.7.</strong> Mana</a></li><li class="chapter-item expanded "><a href="../game-concepts/numbers-and-symbols.html" class="active"><strong aria-hidden="true">2.8.</strong> Numbers and Symbols</a></li><li class="chapter-item expanded "><a href="../game-concepts/cards.html"><strong aria-hidden="true">2.9.</strong> Cards</a></li><li class="chapter-item expanded "><a href="../game-concepts/objects.html"><strong aria-hidden="true">2.10.</strong> Objects</a></li><li class="chapter-item expanded "><a href="../game-concepts/permanents.html"><strong aria-hidden="true">2.11.</strong> Permanents</a></li><li class="chapter-item expanded "><a href="../game-concepts/tokens.html"><strong aria-hidden="true">2.12.</strong> Tokens</a></li><li class="chapter-item expanded "><a href="../game-concepts/spells.html"><strong aria-hidden="true">2.13.</strong> Spells</a></li><li class="chapter-item expanded "><a href="../game-concepts/abilities.html"><strong aria-hidden="true">2.14.</strong> Abilities</a></li><li class="chapter-item expanded "><a href="../game-concepts/emblems.html"><strong aria-hidden="true">2.15.</strong> Emblems</a></li><li class="chapter-item expanded "><a href="../game-concepts/targets.html"><strong aria-hidden="true">2.16.</strong> Targets</a></li><li class="chapter-item expanded "><a href="../game-concepts/special-actions.html"><strong aria-hidden="true">2.17.</strong> Special Actions</a></li><li class="chapter-item expanded "><a href="../game-concepts/timing-and-priority.html"><strong aria-hidden="true">2.18.</strong> Timing and Priority</a></li><li class="chapter-item expanded "><a href="../game-concepts/costs.html"><strong aria-hidden="true">2.19.</strong> Costs</a></li><li class="chapter-item expanded "><a href="../game-concepts/life.html"><strong aria-hidden="true">2.20.</strong> Life</a></li><li class="chapter-item expanded "><a href="../game-concepts/damage.html"><strong aria-hidden="true">2.21.</strong> Damage</a></li><li class="chapter-item expanded "><a href="../game-concepts/drawing-a-card.html"><strong aria-hidden="true">2.22.</strong> Drawing a Card</a></li><li class="chapter-item expanded "><a href="../game-concepts/counters.html"><strong aria-hidden="true">2.23.</strong> Counters</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> Parts of a Card</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../parts-of-a-card/general.html"><strong aria-hidden="true">3.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/name.html"><strong aria-hidden="true">3.2.</strong> Name</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/mana-cost-and-color.html"><strong aria-hidden="true">3.3.</strong> Mana Cost and Color</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/illustration.html"><strong aria-hidden="true">3.4.</strong> Illustration</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/color-indicator.html"><strong aria-hidden="true">3.5.</strong> Color Indicator</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/type-line.html"><strong aria-hidden="true">3.6.</strong> Type Line</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/expansion-symbol.html"><strong aria-hidden="true">3.7.</strong> Expansion Symbol</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/text-box.html"><strong aria-hidden="true">3.8.</strong> Text Box</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/powertoughness.html"><strong aria-hidden="true">3.9.</strong> Power/Toughness</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/loyalty.html"><strong aria-hidden="true">3.10.</strong> Loyalty</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/hand-modifier.html"><strong aria-hidden="true">3.11.</strong> Hand Modifier</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/life-modifier.html"><strong aria-hidden="true">3.12.</strong> Life Modifier</a></li><li class="chapter-item expanded "><a href="../parts-of-a-card/information-below-the-text-box.html"><strong aria-hidden="true">3.13.</strong> Information Below the Text Box</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> Card Types</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../card-types/general.html"><strong aria-hidden="true">4.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../card-types/artifacts.html"><strong aria-hidden="true">4.2.</strong> Artifacts</a></li><li class="chapter-item expanded "><a href="../card-types/creatures.html"><strong aria-hidden="true">4.3.</strong> Creatures</a></li><li class="chapter-item expanded "><a href="../card-types/enchantments.html"><strong aria-hidden="true">4.4.</strong> Enchantments</a></li><li class="chapter-item expanded "><a href="../card-types/instants.html"><strong aria-hidden="true">4.5.</strong> Instants</a></li><li class="chapter-item expanded "><a href="../card-types/lands.html"><strong aria-hidden="true">4.6.</strong> Lands</a></li><li class="chapter-item expanded "><a href="../card-types/planeswalkers.html"><strong aria-hidden="true">4.7.</strong> Planeswalkers</a></li><li class="chapter-item expanded "><a href="../card-types/sorceries.html"><strong aria-hidden="true">4.8.</strong> Sorceries</a></li><li class="chapter-item expanded "><a href="../card-types/tribals.html"><strong aria-hidden="true">4.9.</strong> Tribals</a></li><li class="chapter-item expanded "><a href="../card-types/dungeons.html"><strong aria-hidden="true">4.10.</strong> Dungeons</a></li><li class="chapter-item expanded "><a href="../card-types/planes.html"><strong aria-hidden="true">4.11.</strong> Planes</a></li><li class="chapter-item expanded "><a href="../card-types/phenomena.html"><strong aria-hidden="true">4.12.</strong> Phenomena</a></li><li class="chapter-item expanded "><a href="../card-types/vanguards.html"><strong aria-hidden="true">4.13.</strong> Vanguards</a></li><li class="chapter-item expanded "><a href="../card-types/schemes.html"><strong aria-hidden="true">4.14.</strong> Schemes</a></li><li class="chapter-item expanded "><a href="../card-types/conspiracies.html"><strong aria-hidden="true">4.15.</strong> Conspiracies</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.</strong> Zones</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../zones/general.html"><strong aria-hidden="true">5.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../zones/library.html"><strong aria-hidden="true">5.2.</strong> Library</a></li><li class="chapter-item expanded "><a href="../zones/hand.html"><strong aria-hidden="true">5.3.</strong> Hand</a></li><li class="chapter-item expanded "><a href="../zones/battlefield.html"><strong aria-hidden="true">5.4.</strong> Battlefield</a></li><li class="chapter-item expanded "><a href="../zones/graveyard.html"><strong aria-hidden="true">5.5.</strong> Graveyard</a></li><li class="chapter-item expanded "><a href="../zones/stack.html"><strong aria-hidden="true">5.6.</strong> Stack</a></li><li class="chapter-item expanded "><a href="../zones/exile.html"><strong aria-hidden="true">5.7.</strong> Exile</a></li><li class="chapter-item expanded "><a href="../zones/ante.html"><strong aria-hidden="true">5.8.</strong> Ante</a></li><li class="chapter-item expanded "><a href="../zones/command.html"><strong aria-hidden="true">5.9.</strong> Command</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">6.</strong> Turn Structure</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../turn-structure/general.html"><strong aria-hidden="true">6.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../turn-structure/beginning-phase.html"><strong aria-hidden="true">6.2.</strong> Beginning Phase</a></li><li class="chapter-item expanded "><a href="../turn-structure/untap-step.html"><strong aria-hidden="true">6.3.</strong> Untap Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/upkeep-step.html"><strong aria-hidden="true">6.4.</strong> Upkeep Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/draw-step.html"><strong aria-hidden="true">6.5.</strong> Draw Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/main-phase.html"><strong aria-hidden="true">6.6.</strong> Main Phase</a></li><li class="chapter-item expanded "><a href="../turn-structure/combat-phase.html"><strong aria-hidden="true">6.7.</strong> Combat Phase</a></li><li class="chapter-item expanded "><a href="../turn-structure/beginning-of-combat-step.html"><strong aria-hidden="true">6.8.</strong> Beginning of Combat Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/declare-attackers-step.html"><strong aria-hidden="true">6.9.</strong> Declare Attackers Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/declare-blockers-step.html"><strong aria-hidden="true">6.10.</strong> Declare Blockers Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/combat-damage-step.html"><strong aria-hidden="true">6.11.</strong> Combat Damage Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/end-of-combat-step.html"><strong aria-hidden="true">6.12.</strong> End of Combat Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/ending-phase.html"><strong aria-hidden="true">6.13.</strong> Ending Phase</a></li><li class="chapter-item expanded "><a href="../turn-structure/end-step.html"><strong aria-hidden="true">6.14.</strong> End Step</a></li><li class="chapter-item expanded "><a href="../turn-structure/cleanup-step.html"><strong aria-hidden="true">6.15.</strong> Cleanup Step</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Spells, Abilities, and Effects</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/general.html"><strong aria-hidden="true">7.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/casting-spells.html"><strong aria-hidden="true">7.2.</strong> Casting Spells</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/activating-activated-abilities.html"><strong aria-hidden="true">7.3.</strong> Activating Activated Abilities</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/handling-triggered-abilities.html"><strong aria-hidden="true">7.4.</strong> Handling Triggered Abilities</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/handling-static-abilities.html"><strong aria-hidden="true">7.5.</strong> Handling Static Abilities</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/mana-abilities.html"><strong aria-hidden="true">7.6.</strong> Mana Abilities</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/loyalty-abilities.html"><strong aria-hidden="true">7.7.</strong> Loyalty Abilities</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/linked-abilities.html"><strong aria-hidden="true">7.8.</strong> Linked Abilities</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/resolving-spells-and-abilities.html"><strong aria-hidden="true">7.9.</strong> Resolving Spells and Abilities</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/effects.html"><strong aria-hidden="true">7.10.</strong> Effects</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/one-shot-effects.html"><strong aria-hidden="true">7.11.</strong> One-Shot Effects</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/continuous-effects.html"><strong aria-hidden="true">7.12.</strong> Continuous Effects</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/text-changing-effects.html"><strong aria-hidden="true">7.13.</strong> Text-Changing Effects</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/interaction-of-continuous-effects.html"><strong aria-hidden="true">7.14.</strong> Interaction of Continuous Effects</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/replacement-effects.html"><strong aria-hidden="true">7.15.</strong> Replacement Effects</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/prevention-effects.html"><strong aria-hidden="true">7.16.</strong> Prevention Effects</a></li><li class="chapter-item expanded "><a href="../spells-abilities-and-effects/interaction-of-replacement-andor-prevention-effects.html"><strong aria-hidden="true">7.17.</strong> Interaction of Replacement and/or Prevention Effects</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> Additional Rules</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../additional-rules/general.html"><strong aria-hidden="true">8.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../additional-rules/keyword-actions.html"><strong aria-hidden="true">8.2.</strong> Keyword Actions</a></li><li class="chapter-item expanded "><a href="../additional-rules/keyword-abilities.html"><strong aria-hidden="true">8.3.</strong> Keyword Abilities</a></li><li class="chapter-item expanded "><a href="../additional-rules/turn-based-actions.html"><strong aria-hidden="true">8.4.</strong> Turn-Based Actions</a></li><li class="chapter-item expanded "><a href="../additional-rules/state-based-actions.html"><strong aria-hidden="true">8.5.</strong> State-Based Actions</a></li><li class="chapter-item expanded "><a href="../additional-rules/flipping-a-coin.html"><strong aria-hidden="true">8.6.</strong> Flipping a Coin</a></li><li class="chapter-item expanded "><a href="../additional-rules/rolling-a-die.html"><strong aria-hidden="true">8.7.</strong> Rolling a Die</a></li><li class="chapter-item expanded "><a href="../additional-rules/copying-objects.html"><strong aria-hidden="true">8.8.</strong> Copying Objects</a></li><li class="chapter-item expanded "><a href="../additional-rules/face-down-spells-and-permanents.html"><strong aria-hidden="true">8.9.</strong> Face-Down Spells and Permanents</a></li><li class="chapter-item expanded "><a href="../additional-rules/split-cards.html"><strong aria-hidden="true">8.10.</strong> Split Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/flip-cards.html"><strong aria-hidden="true">8.11.</strong> Flip Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/leveler-cards.html"><strong aria-hidden="true">8.12.</strong> Leveler Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/double-faced-cards.html"><strong aria-hidden="true">8.13.</strong> Double-Faced Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/meld-cards.html"><strong aria-hidden="true">8.14.</strong> Meld Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/substitute-cards.html"><strong aria-hidden="true">8.15.</strong> Substitute Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/saga-cards.html"><strong aria-hidden="true">8.16.</strong> Saga Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/adventurer-cards.html"><strong aria-hidden="true">8.17.</strong> Adventurer Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/class-cards.html"><strong aria-hidden="true">8.18.</strong> Class Cards</a></li><li class="chapter-item expanded "><a href="../additional-rules/controlling-another-player.html"><strong aria-hidden="true">8.19.</strong> Controlling Another Player</a></li><li class="chapter-item expanded "><a href="../additional-rules/ending-turns-and-phases.html"><strong aria-hidden="true">8.20.</strong> Ending Turns and Phases</a></li><li class="chapter-item expanded "><a href="../additional-rules/the-monarch.html"><strong aria-hidden="true">8.21.</strong> The Monarch</a></li><li class="chapter-item expanded "><a href="../additional-rules/initiative.html"><strong aria-hidden="true">8.22.</strong> Initiative</a></li><li class="chapter-item expanded "><a href="../additional-rules/restarting-the-game.html"><strong aria-hidden="true">8.23.</strong> Restarting the Game</a></li><li class="chapter-item expanded "><a href="../additional-rules/subgames.html"><strong aria-hidden="true">8.24.</strong> Subgames</a></li><li class="chapter-item expanded "><a href="../additional-rules/merging-with-permanents.html"><strong aria-hidden="true">8.25.</strong> Merging with Permanents</a></li><li class="chapter-item expanded "><a href="../additional-rules/day-and-night.html"><strong aria-hidden="true">8.26.</strong> Day and Night</a></li><li class="chapter-item expanded "><a href="../additional-rules/taking-shortcuts.html"><strong aria-hidden="true">8.27.</strong> Taking Shortcuts</a></li><li class="chapter-item expanded "><a href="../additional-rules/handling-illegal-actions.html"><strong aria-hidden="true">8.28.</strong> Handling Illegal Actions</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> Multiplayer Rules</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../multiplayer-rules/general.html"><strong aria-hidden="true">9.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/limited-range-of-influence-option.html"><strong aria-hidden="true">9.2.</strong> Limited Range of Influence Option</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/attack-multiple-players-option.html"><strong aria-hidden="true">9.3.</strong> Attack Multiple Players Option</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/attack-left-and-attack-right-options.html"><strong aria-hidden="true">9.4.</strong> Attack Left and Attack Right Options</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/deploy-creatures-option.html"><strong aria-hidden="true">9.5.</strong> Deploy Creatures Option</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/shared-team-turns-option.html"><strong aria-hidden="true">9.6.</strong> Shared Team Turns Option</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/free-for-all-variant.html"><strong aria-hidden="true">9.7.</strong> Free-for-All Variant</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/grand-melee-variant.html"><strong aria-hidden="true">9.8.</strong> Grand Melee Variant</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/team-vs.-team-variant.html"><strong aria-hidden="true">9.9.</strong> Team vs. Team Variant</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/emperor-variant.html"><strong aria-hidden="true">9.10.</strong> Emperor Variant</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/two-headed-giant-variant.html"><strong aria-hidden="true">9.11.</strong> Two-Headed Giant Variant</a></li><li class="chapter-item expanded "><a href="../multiplayer-rules/alternating-teams-variant.html"><strong aria-hidden="true">9.12.</strong> Alternating Teams Variant</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.</strong> Casual Variants</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../casual-variants/general.html"><strong aria-hidden="true">10.1.</strong> General</a></li><li class="chapter-item expanded "><a href="../casual-variants/planechase.html"><strong aria-hidden="true">10.2.</strong> Planechase</a></li><li class="chapter-item expanded "><a href="../casual-variants/vanguard.html"><strong aria-hidden="true">10.3.</strong> Vanguard</a></li><li class="chapter-item expanded "><a href="../casual-variants/commander.html"><strong aria-hidden="true">10.4.</strong> Commander</a></li><li class="chapter-item expanded "><a href="../casual-variants/archenemy.html"><strong aria-hidden="true">10.5.</strong> Archenemy</a></li><li class="chapter-item expanded "><a href="../casual-variants/conspiracy-draft.html"><strong aria-hidden="true">10.6.</strong> Conspiracy Draft</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Magic: The Gathering Comprehensive Rules</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="107-numbers-and-symbols"><a class="header" href="#107-numbers-and-symbols"><strong>107.</strong> Numbers and Symbols</a></h1>
+<p><strong>107.1.</strong> The only numbers the Magic game uses are integers.</p>
+<ul>
+<li>
+<p><strong>107.1a</strong> You can’t choose a fractional number, deal fractional damage, gain fractional life, and so on. If a spell or ability could generate a fractional number, the spell or ability will tell you whether to round up or down.</p>
+</li>
+<li>
+<p><strong>107.1b</strong> Most of the time, the Magic game uses only positive numbers and zero. You can’t choose a negative number, deal negative damage, gain negative life, and so on. However, it’s possible for a game value, such as a creature’s power, to be less than zero. If a calculation or comparison needs to use a negative value, it does so. If a calculation that would determine the result of an effect yields a negative number, zero is used instead, unless that effect doubles or sets to a specific value a player’s life total or the power and/or toughness of a creature or creature card.</p>
+<pre><code>Example: If a 3/4 creature gets -5/-0, it’s a -2/4 creature. It doesn’t assign damage in combat. Its total power and toughness is 2. Giving it +3/+0 would raise its power to 1.
+
+Example: Viridian Joiner is a 1/2 creature with the ability “{T}: Add an amount of {G} equal to Viridian Joiner’s power.” An effect gives it -2/-0, then its ability is activated. The ability adds no mana to your mana pool.
+
+Example: Chameleon Colossus is a 4/4 creature with the ability “{2}{G}{G}: Chameleon Colossus gets +X/+X until end of turn, where X is its power.” An effect gives it -6/-0, then its ability is activated. It remains a -2/4 creature. It doesn’t become -4/2.
+</code></pre>
+</li>
+<li>
+<p><strong>107.1c</strong> If a rule or ability instructs a player to choose “any number,” that player may choose any positive number or zero.</p>
+</li>
+</ul>
+<p><strong>107.2.</strong> If anything needs to use a number that can’t be determined, either as a result or in a calculation, it uses 0 instead.</p>
+<p><strong>107.3.</strong> Many objects use the letter X as a placeholder for a number that needs to be determined. Some objects have abilities that define the value of X; the rest let their controller choose the value of X.</p>
+<ul>
+<li><strong>107.3a</strong> If a spell or activated ability has a mana cost, alternative cost, additional cost, and/or activation cost with an {X}, [-X], or X in it, and the value of X isn’t defined by the text of that spell or ability, the controller of that spell or ability chooses and announces the value of X as part of casting the spell or activating the ability. (See rule 601, “Casting Spells.”) While a spell is on the stack, any X in its mana cost or in any alternative cost or additional cost it has equals the announced value. While an activated ability is on the stack, any X in its activation cost equals the announced value.</li>
+<li><strong>107.3b</strong> If a player is casting a spell that has an {X} in its mana cost, the value of X isn’t defined by the text of that spell, and an effect lets that player cast that spell while paying neither its mana cost nor an alternative cost that includes X, then the only legal choice for X is 0. This doesn’t apply to effects that only reduce a cost, even if they reduce it to zero. See rule 601, “Casting Spells.”</li>
+<li><strong>107.3c</strong> If a spell or activated ability has an {X}, [-X], or X in its cost and/or its text, and the value of X is defined by the text of that spell or ability, then that’s the value of X while that spell or ability is on the stack. The controller of that spell or ability doesn’t get to choose the value. Note that the value of X may change while that spell or ability is on the stack.</li>
+<li><strong>107.3d</strong> If a cost associated with a special action, such as a suspend cost or a morph cost, has an {X} or an X in it, the value of X is chosen by the player taking the special action immediately before they pay that cost.</li>
+<li><strong>107.3e</strong> If a spell or ability refers to the {X} or X in the mana cost, alternative cost, additional cost, or activation cost of another object, any X in that spell or ability’s text uses the value of X chosen or defined for the other object.</li>
+<li><strong>107.3f</strong> Sometimes X appears in the text of a spell or ability but not in a mana cost, alternative cost, additional cost, or activation cost. If the value of X isn’t defined, the controller of the spell or ability chooses the value of X at the appropriate time (either as it’s put on the stack or as it resolves).</li>
+<li><strong>107.3g</strong> If a card in any zone other than the stack has an {X} in its mana cost, the value of {X} is treated as 0, even if the value of X is defined somewhere within its text.</li>
+<li><strong>107.3h</strong> If an effect instructs a player to pay an object’s mana cost that includes {X}, the value of X is treated as 0 unless the object is a spell on the stack. In that case, the value of X is the value chosen or determined for it as the spell was cast.</li>
+<li><strong>107.3i</strong> Normally, all instances of X on an object have the same value at any given time.</li>
+<li><strong>107.3j</strong> If an object gains an ability, the value of X within that ability is the value defined by that ability, or 0 if that ability doesn’t define a value of X. This is an exception to rule 107.3i. This may occur with ability-adding effects, text-changing effects, or copy effects.</li>
+<li><strong>107.3k</strong> If an object’s activated ability has an {X}, [-X], or X in its activation cost, the value of X for that ability is independent of any other values of X chosen for that object or for other instances of abilities of that object. This is an exception to rule 107.3i.</li>
+<li><strong>107.3m</strong> If an object’s enters-the-battlefield triggered ability or replacement effect refers to X, and the spell that became that object as it resolved had a value of X chosen for any of its costs, the value of X for that ability is the same as the value of X for that spell, although the value of X for that permanent is 0. This is an exception to rule 107.3i.</li>
+<li><strong>107.3n</strong> If a delayed triggered ability created by a resolving spell or ability refers to X, X is not defined in the text of that triggered ability, and the spell or ability that created it had a value of X chosen for any of its costs, the value of X for the triggered ability is the same as the value of X for the spell of ability that created it.</li>
+<li><strong>107.3p</strong> Some objects use the letter Y in addition to the letter X. Y follows the same rules as X.</li>
+</ul>
+<p><strong>107.4.</strong> The mana symbols are {W}, {U}, {B}, {R}, {G}, and {C}; the numerical symbols {0}, {1}, {2}, {3}, {4}, and so on; the variable symbol {X}; the hybrid symbols {W/U}, {W/B}, {U/B}, {U/R}, {B/R}, {B/G}, {R/G}, {R/W}, {G/W}, and {G/U}; the monocolored hybrid symbols {2/W}, {2/U}, {2/B}, {2/R}, and {2/G}; the Phyrexian mana symbols {W/P}, {U/P}, {B/P}, {R/P}, and {G/P}; the hybrid Phyrexian symbols {W/U/P}, {W/B/P}, {U/B/P}, {U/R/P}, {B/R/P}, {B/G/P}, {R/G/P}, {R/W/P}, {G/W/P}, and {G/U/P}; and the snow mana symbol {S}.</p>
+<ul>
+<li>
+<p><strong>107.4a</strong> There are five primary colored mana symbols: {W} is white, {U} blue, {B} black, {R} red, and {G} green. These symbols are used to represent colored mana, and also to represent colored mana in costs. Colored mana in costs can be paid only with the appropriate color of mana. See rule 202, “Mana Cost and Color.”</p>
+</li>
+<li>
+<p><strong>107.4b</strong> Numerical symbols (such as {1}) and variable symbols (such as {X}) represent generic mana in costs. Generic mana in costs can be paid with any type of mana. For more information about {X}, see rule 107.3.</p>
+</li>
+<li>
+<p><strong>107.4c</strong> The colorless mana symbol {C} is used to represent one colorless mana, and also to represent a cost that can be paid only with one colorless mana.</p>
+</li>
+<li>
+<p><strong>107.4d</strong> The symbol {0} represents zero mana and is used as a placeholder for a cost that can be paid with no resources. (See rule 118.5.)</p>
+</li>
+<li>
+<p><strong>107.4e</strong> Hybrid mana symbols are also colored mana symbols. Each one represents a cost that can be paid in one of two ways, as represented by the two halves of the symbol. A hybrid symbol such as {W/U} can be paid with either white or blue mana, and a monocolored hybrid symbol such as {2/B} can be paid with either one black mana or two mana of any type. A hybrid mana symbol is all of its component colors.</p>
+<pre><code>Example: {G/W}{G/W} can be paid by spending {G}{G}, {G}{W}, or {W}{W}.
+</code></pre>
+</li>
+<li>
+<p><strong>107.4f</strong> Phyrexian mana symbols are colored mana symbols: {W/P} is white, {U/P} is blue, {B/P} is black, {R/P} is red, and {G/P} is green. A Phyrexian mana symbol represents a cost that can be paid either with one mana of its color or by paying 2 life. There are also ten hybrid Phyrexian mana symbols. A hybrid Phyrexian mana symbol represents a cost that can be paid with one mana of either of its component colors or by paying 2 life. A hybrid Phyrexian mana symbol is both of its component colors.</p>
+<pre><code>Example: {W/P}{W/P} can be paid by spending {W}{W}, by spending {W} and paying 2 life, or by paying 4 life.
+</code></pre>
+</li>
+<li>
+<p><strong>107.4g</strong> In rules text, the Phyrexian symbol {P} with no colored background means any of the fifteen Phyrexian mana symbols.</p>
+</li>
+<li>
+<p><strong>107.4h</strong> When used in a cost, the snow mana symbol {S} represents a cost that can be paid with one mana of any type produced by a snow source (see rule 106.3). Effects that reduce the amount of generic mana you pay don’t affect {S} costs. The {S} symbol can also be used to refer to mana of any type produced by a snow source spent to pay a cost. Snow is neither a color nor a type of mana.</p>
+</li>
+</ul>
+<p><strong>107.5.</strong> The tap symbol is {T}. The tap symbol in an activation cost means “Tap this permanent.” A permanent that’s already tapped can’t be tapped again to pay the cost. A creature’s activated ability with the tap symbol in its activation cost can’t be activated unless the creature has been under its controller’s control continuously since their most recent turn began. See rule 302.6.</p>
+<p><strong>107.6.</strong> The untap symbol is {Q}. The untap symbol in an activation cost means “Untap this permanent.” A permanent that’s already untapped can’t be untapped again to pay the cost. A creature’s activated ability with the untap symbol in its activation cost can’t be activated unless the creature has been under its controller’s control continuously since their most recent turn began. See rule 302.6.</p>
+<p><strong>107.7.</strong> Each activated ability of a planeswalker has a loyalty symbol in its cost. Positive loyalty symbols point upward and feature a plus sign followed by a number. Negative loyalty symbols point downward and feature a minus sign followed by a number or an X. Neutral loyalty symbols don’t point in either direction and feature a 0. [+N] means “Put N loyalty counters on this permanent,” [-N] means “Remove N loyalty counters from this permanent,” and [0] means “Put zero loyalty counters on this permanent.” Loyalty symbols may also appear in abilities that modify loyalty costs.</p>
+<p><strong>107.8.</strong> The text box of a leveler card contains two level symbols, each of which is a keyword ability that represents a static ability. The level symbol includes either a range of numbers, indicated here as “N1-N2,” or a single number followed by a plus sign, indicated here as “N3+.” Any abilities printed within the same text box striation as a level symbol are part of its static ability. The same is true of the power/toughness box printed within that striation, indicated here as “[P/T].” See rule 711, “Leveler Cards.”</p>
+<ul>
+<li><strong>107.8a</strong> “{LEVEL N1-N2} [Abilities] [P/T]” means “As long as this creature has at least N1 level counters on it, but no more than N2 level counters on it, it has base power and toughness [P/T] and has [abilities].”</li>
+<li><strong>107.8b</strong> “{LEVEL N3+} [Abilities] [P/T]” means “As long as this creature has N3 or more level counters on it, it has base power and toughness [P/T] and has [abilities].”</li>
+</ul>
+<p><strong>107.9.</strong> A tombstone icon appears to the left of the name of many Odyssey™ block cards with abilities that are relevant in a player’s graveyard. The purpose of the icon is to make those cards stand out when they’re in a graveyard. This icon has no effect on game play.</p>
+<p><strong>107.10.</strong> A type icon appears in the upper left corner of each card from the Future Sight® set printed with an alternate “timeshifted” frame. If the card has a single card type, this icon indicates what it is: claw marks for creature, a flame for sorcery, a lightning bolt for instant, a sunrise for enchantment, a chalice for artifact, and a pair of mountain peaks for land. If the card has multiple card types, that’s indicated by a black and white cross. This icon has no effect on game play.</p>
+<p><strong>107.11.</strong> The Planeswalker symbol is {PW}. It appears on one face of the planar die used in the Planechase casual variant. See rule 901, “Planechase.”</p>
+<p><strong>107.12.</strong> The chaos symbol is {CHAOS}. It appears on one face of the planar die used in the Planechase casual variant, as well as in abilities that refer to the results of rolling the planar die. See rule 901, “Planechase.”</p>
+<p><strong>107.13.</strong> A color indicator is a circular symbol that appears to the left of the type line on some cards. The color of the symbol defines the card’s color or colors. See rule 202, “Mana Cost and Color.”</p>
+<p><strong>107.14.</strong> The energy symbol is {E}. It represents one energy counter. To pay {E}, a player removes one energy counter from themselves.</p>
+<p><strong>107.15.</strong> The text box of a Saga card contains chapter symbols, each of which is a keyword ability that represents a triggered ability. A chapter symbol includes a Roman numeral, indicated here as “rN”. The text printed in the text box striation to the right of a chapter symbol is the effect of the triggered ability it represents. See rule 715, “Saga Cards.”</p>
+<ul>
+<li><strong>107.15</strong>a “{rN}—[Effect]” means “When one or more lore counters are put onto this Saga, if the number of lore counters on it was less than N and became at least N, [effect].”</li>
+<li><strong>107.15</strong>b “{rN1}, {rN2}—[Effect]” is the same as “{rN1}—[Effect]” and “{rN2}—[Effect].”</li>
+</ul>
+<p><strong>107.16.</strong> The text box of a Class card contains class level bars, each of which is a keyword ability that represents both an activated ability and a static ability. A class level bar includes the activation cost of its activated ability and a level number. Any abilities printed within the same text box section as the class level bar are part of its static ability. See rule 717, “Class Cards.”</p>
+<ul>
+<li><strong>107.16</strong>a “[Cost]: Level N — [Abilities]” means “[Cost]: This Class’s level becomes N. Activate only if this Class is level N-1 and only as a sorcery” and “As long as this Class is level N or greater, it has [abilities].”</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../game-concepts/mana.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../game-concepts/cards.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../game-concepts/mana.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../game-concepts/cards.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
