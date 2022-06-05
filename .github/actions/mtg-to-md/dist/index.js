@@ -211,10 +211,10 @@ async function main() {
     }).with(1 /* Contents */, () => {
       return K(line).with("Contents", () => "- [Introduction](README.md)").with(S.when((line2) => /^\d{1,2}\..+$/.test(line2)), () => {
         ruleSection = line.replace(/^\d{1,2}\. /, "");
-        return `- [${ruleSection}]()`;
+        return `- [**${line.replace(/(?<=^\d{1,2}\.)/, "**")}]()`;
       }).with(S.when((line2) => /^\d{3}\..+$/.test(line2)), () => {
         let sectionName = line.replace(/^\d{3}\. /, "");
-        return `	- [${sectionName}](${toKebabCase(ruleSection)}/${toKebabCase(sectionName)}.md)`;
+        return `	- [**${line.replace(/(?<=^\d{3}\.)(?= )/, "**")}](${toKebabCase(ruleSection)}/${toKebabCase(sectionName)}.md)`;
       }).with("Glossary", () => "[Glossary](glossary.md)").with("Credits", () => "[Credits](credits.md)").otherwise((line2) => line2);
     }).with(2 /* Rules */, () => {
       return K(line).with(S.when((line2) => /^\d{1,2}\..+$/.test(line2)), () => {
@@ -225,7 +225,7 @@ async function main() {
         inList = false;
         let sectionName = line.replace(/^\d{3}\. /, "");
         outPath = `${toKebabCase(ruleSection)}/${toKebabCase(sectionName)}.md`;
-        return `# **${line.replace(/(?<=^\d{3}\.)/, "**")}`;
+        return `# **${line.replace(/(?<=^\d{3}\.)(?= )/, "**")}`;
       }).with(S.when((line2) => /^\d{3}\.\d+\. .+$/.test(line2)), () => {
         inList = false;
         return `

@@ -66,13 +66,13 @@ async function main() {
                 .with(P.when((line : string) : line is string => /^\d{1,2}\..+$/.test(line)), () => {
                     
                     ruleSection = line.replace(/^\d{1,2}\. /, '');
-                    return `- [${ruleSection}]()`
+                    return `- [**${line.replace(/(?<=^\d{1,2}\.)/,'**')}]()`
 
                 })
                 .with(P.when((line : string) : line is string => /^\d{3}\..+$/.test(line)), () => {
 
                     let sectionName = line.replace(/^\d{3}\. /, '');
-                    return `\t- [${sectionName}](${toKebabCase(ruleSection)}/${(toKebabCase(sectionName))}.md)`;
+                    return `\t- [**${line.replace(/(?<=^\d{3}\.)(?= )/,'**')}](${toKebabCase(ruleSection)}/${(toKebabCase(sectionName))}.md)`;
 
                 })
                 .with('Glossary', () => '[Glossary](glossary.md)')
@@ -95,7 +95,7 @@ async function main() {
                         inList = false;
                         let sectionName = line.replace(/^\d{3}\. /, '');
                         outPath = `${toKebabCase(ruleSection)}/${(toKebabCase(sectionName))}.md`;
-                        return `# **${line.replace(/(?<=^\d{3}\.)/,'**')}`;
+                        return `# **${line.replace(/(?<=^\d{3}\.)(?= )/,'**')}`;
                     })
                     
                     .with(P.when((line : string) : line is string => /^\d{3}\.\d+\. .+$/.test(line)), () => {
