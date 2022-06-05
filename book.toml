@@ -5,5 +5,8 @@ multilingual = false
 src = "src"
 title = "Magic: The Gathering Comprehensive Rules"
 
+[build]
+build-dir = "docs"  
+
 [output.html]
 site-url = "ancestral.vision"
