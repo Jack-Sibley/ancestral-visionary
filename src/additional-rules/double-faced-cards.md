@@ -39,11 +39,11 @@
 **712.9.** By default, a resolving double-faced spell that becomes a permanent is put onto the battlefield with the same face up that was face up on the stack. Some abilities may cause a transforming double-faced spell with its front face up on the stack to enter the battlefield transformed.
 
 **712.10.** A double-faced card put onto the battlefield from a zone other than the stack enters the battlefield with its front face up by default.
-+ **712.10**a If a spell or ability puts a transforming double-faced card onto the battlefield “transformed,” it enters the battlefield with its back face up. If a player is instructed to put a card that isn’t a transforming double-faced card onto the battlefield transformed, that card stays in its current zone.
-+ **712.10**b If a player is instructed to put a modal double-faced card onto the battlefield and its front face isn’t a permanent card, the card stays in its current zone.
++ **712.10a** If a spell or ability puts a transforming double-faced card onto the battlefield “transformed,” it enters the battlefield with its back face up. If a player is instructed to put a card that isn’t a transforming double-faced card onto the battlefield transformed, that card stays in its current zone.
++ **712.10b** If a player is instructed to put a modal double-faced card onto the battlefield and its front face isn’t a permanent card, the card stays in its current zone.
 
 **712.11.** If an effect allows a player to cast a double-faced card as a face-down creature spell, or if a double-faced card enters the battlefield face down, it will have the characteristics given to it by the rule or effect that caused it to be face down. That card remains hidden, using a face-down substitute card (see rule 714) and/or opaque sleeves. See rule 708, “Face-Down Spells and Permanents.”
-+ **712.11**a While face down, a transforming double-faced permanent can’t transform. If it’s turned face up, it will have its front face up.
++ **712.11a** While face down, a transforming double-faced permanent can’t transform. If it’s turned face up, it will have its front face up.
 
 **712.12.** Double-faced permanents can’t be turned face down. If a spell or ability tries to turn a double-faced permanent face down, nothing happens.
 

@@ -4,7 +4,7 @@
 + **119.1a** In a Two-Headed Giant game, each team’s starting life total is 30. See rule 810, “Two-Headed Giant Variant.”
 + **119.1b** In a Vanguard game, each player’s starting life total is 20 plus or minus the life modifier of their vanguard card. See rule 902, “Vanguard.”
 + **119.1c** In a Commander game, each player’s starting life total is 40. See rule 903, “Commander.”
-119.1d. In a two-player Brawl game, each player’s starting life total is 25. In a multiplayer Brawl game, each player’s starting life total is 30. See rule 903.12, “Brawl Option.”
++ **119.1d.** In a two-player Brawl game, each player’s starting life total is 25. In a multiplayer Brawl game, each player’s starting life total is 30. See rule 903.12, “Brawl Option.”
 + **119.1e** In an Archenemy game, the archenemy’s starting life total is 40. See rule 904, “Archenemy.”
 
 **119.2.** Damage dealt to a player normally causes that player to lose that much life. See rule 120.3.

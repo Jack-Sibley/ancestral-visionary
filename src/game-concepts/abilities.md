@@ -51,9 +51,9 @@
 **113.9.** Activated and triggered abilities on the stack aren’t spells, and therefore can’t be countered by anything that counters only spells. Activated and triggered abilities on the stack can be countered by effects that specifically counter abilities. Static abilities don’t use the stack and thus can’t be countered at all.
 
 **113.10.** Effects can add or remove abilities of objects. An effect that adds an ability will state that the object “gains” or “has” that ability, or similar. An effect that removes an ability will state that the object “loses” that ability.
-+ **113.10**a An effect that adds an activated ability may include activation instructions for that ability. These instructions become part of the ability that’s added to the object.
-+ **113.10**b Effects that remove an ability remove all instances of it.
-+ **113.10**c If two or more effects add and remove the same ability, in general the most recent one prevails. See rule 613 for more information about the interaction of continuous effects.
++ **113.10a** An effect that adds an activated ability may include activation instructions for that ability. These instructions become part of the ability that’s added to the object.
++ **113.10b** Effects that remove an ability remove all instances of it.
++ **113.10c** If two or more effects add and remove the same ability, in general the most recent one prevails. See rule 613 for more information about the interaction of continuous effects.
 
 **113.11.** Effects can stop an object from having a specified ability. These effects say that the object “can’t have” that ability. If the object has that ability, it loses it. It’s also impossible for an effect or keyword counter to add that ability to the object. If a resolving spell or ability creates a continuous effect that would add the specified ability to such an object, that part of that continuous effect does not apply; however, other parts of that continuous effect will still apply, and that resolving spell or ability can still create other continuous effects. Continuous effects created by static abilities that would add the specified ability won’t apply to that object.
 

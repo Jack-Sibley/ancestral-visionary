@@ -45,25 +45,25 @@
 + **903.9c** If a commander is a melded permanent or a merged permanent and its owner chooses to put it into the command zone using the replacement effect described in rule 903.9b, that permanent and each component representing it that isn’t a commander are put into the appropriate zone, and the card that represents it and is a commander is put into the command zone.
 
 **903.10.** The Commander variant includes the following specification for winning and losing the game. All other rules for ending the game also apply. (See rule 104.)
-+ **903.10**a A player who’s been dealt 21 or more combat damage by the same commander over the course of the game loses the game. (This is a state-based action. See rule 704.)
++ **903.10a** A player who’s been dealt 21 or more combat damage by the same commander over the course of the game loses the game. (This is a state-based action. See rule 704.)
 
 **903.11.** If a player is allowed to bring a card from outside the game into a Commander game, that player can’t bring a card into the game this way if it has the same name as a card that player had in their starting deck, if it has the same name as a card that the player owns in the current game, or if any color in its color identity isn’t in the color identity of the player’s commander.
 
 **903.12.** Brawl Option
-+ **903.12**a Brawl is an option for a different style of Commander game. Brawl games use the normal rules for the Commander variant with the following modifications.
-+ **903.12**b Brawl decks are usually constructed using cards from the Standard format.
-+ **903.12**c A player designates either a legendary planeswalker or a legendary creature as their commander.
-+ **903.12**d A player’s deck must contain exactly 60 cards, including its commander. In other words, the minimum deck size and the maximum deck size are both 60.
-+ **903.12**e If a player’s commander has no colors in its color identity, that player’s deck may contain any number of basic lands of one basic land type of their choice. This is an exception to rule 903.5d.
-+ **903.12**f In a two-player Brawl game, each player’s starting life total is 25. In a multiplayer Brawl game, each player’s starting life total is 30.
-+ **903.12**g In any Brawl game, the first mulligan a player takes doesn’t count toward the number of cards that player will put on the bottom of their library or the number of mulligans that player may take. Subsequent mulligans are counted toward these numbers as normal.
-+ **903.12**h Brawl games do not use the state-based action described in rule 704.6c, which causes a player to lose the game if they’ve been dealt 21 or more combat damage by a commander.
++ **903.12a** Brawl is an option for a different style of Commander game. Brawl games use the normal rules for the Commander variant with the following modifications.
++ **903.12b** Brawl decks are usually constructed using cards from the Standard format.
++ **903.12c** A player designates either a legendary planeswalker or a legendary creature as their commander.
++ **903.12d** A player’s deck must contain exactly 60 cards, including its commander. In other words, the minimum deck size and the maximum deck size are both 60.
++ **903.12e** If a player’s commander has no colors in its color identity, that player’s deck may contain any number of basic lands of one basic land type of their choice. This is an exception to rule 903.5d.
++ **903.12f** In a two-player Brawl game, each player’s starting life total is 25. In a multiplayer Brawl game, each player’s starting life total is 30.
++ **903.12g** In any Brawl game, the first mulligan a player takes doesn’t count toward the number of cards that player will put on the bottom of their library or the number of mulligans that player may take. Subsequent mulligans are counted toward these numbers as normal.
++ **903.12h** Brawl games do not use the state-based action described in rule 704.6c, which causes a player to lose the game if they’ve been dealt 21 or more combat damage by a commander.
 
 **903.13.** Commander Draft
-+ **903.13**a Commander Draft is an option for a different style of Commander game. It consists of a draft (a style of limited play where players choose cards from sealed booster packs to build their decks) followed by a multiplayer game. The Commander Draft option uses Commander Legends booster packs by default.
-+ **903.13**b A draft typically consists of three draft rounds. In each draft round, each player opens a booster pack, drafts two cards by placing them in a face-down pile in front of them, then passes the remaining cards to the next player. Each player then drafts two cards from the booster pack passed to them and passes the remaining cards. This procedure continues until all cards in that draft round have been drafted.
-+ **903.13**c In the first and third draft rounds, booster packs are passed to each player’s left. In the second draft round, booster packs are passed to each player’s right.
-+ **903.13**d During the draft, a player can look only at cards in the booster pack they are currently drafting from and cards they have already drafted. A player may not reveal drafted cards to other players unless an ability instructs them to.
-+ **903.13**e After the draft is complete, the cards a player drafted become that player’s card pool. If the draft contained draft boosters from Commander Legends, each player may add up to two cards named The Prismatic Piper to their card pool, but only if those cards are used as the player’s commander(s). If the draft contained draft boosters from Commander Legends: Battle for Baldur’s Gate®, each player may add up to two cards named Faceless One to their card pool, but only if those cards are used as the player’s commander(s).
-+ **903.13**f Commander Draft deck construction follows the same rules as Commander deck construction (see rule 903.5) with two exceptions: (1) A player’s deck must contain at least 60 cards. There is no maximum deck size. (2) A player’s deck may include any number of cards from that player’s card pool with the same name.
-+ **903.13**g Commander Draft games follow the same rules as Commander games. See rules 903.6–903.11.
++ **903.13a** Commander Draft is an option for a different style of Commander game. It consists of a draft (a style of limited play where players choose cards from sealed booster packs to build their decks) followed by a multiplayer game. The Commander Draft option uses Commander Legends booster packs by default.
++ **903.13b** A draft typically consists of three draft rounds. In each draft round, each player opens a booster pack, drafts two cards by placing them in a face-down pile in front of them, then passes the remaining cards to the next player. Each player then drafts two cards from the booster pack passed to them and passes the remaining cards. This procedure continues until all cards in that draft round have been drafted.
++ **903.13c** In the first and third draft rounds, booster packs are passed to each player’s left. In the second draft round, booster packs are passed to each player’s right.
++ **903.13d** During the draft, a player can look only at cards in the booster pack they are currently drafting from and cards they have already drafted. A player may not reveal drafted cards to other players unless an ability instructs them to.
++ **903.13e** After the draft is complete, the cards a player drafted become that player’s card pool. If the draft contained draft boosters from Commander Legends, each player may add up to two cards named The Prismatic Piper to their card pool, but only if those cards are used as the player’s commander(s). If the draft contained draft boosters from Commander Legends: Battle for Baldur’s Gate®, each player may add up to two cards named Faceless One to their card pool, but only if those cards are used as the player’s commander(s).
++ **903.13f** Commander Draft deck construction follows the same rules as Commander deck construction (see rule 903.5) with two exceptions: (1) A player’s deck must contain at least 60 cards. There is no maximum deck size. (2) A player’s deck may include any number of cards from that player’s card pool with the same name.
++ **903.13g** Commander Draft games follow the same rules as Commander games. See rules 903.6–903.11.

@@ -230,9 +230,9 @@ async function main() {
         inList = false;
         return `
 **${line.replace(/(?<=^\d{3}\.\d+\.)/, "**")}`;
-      }).with(S.when((line2) => /^\d{3}\.\d+\w .+$/.test(line2)), () => {
+      }).with(S.when((line2) => /^\d{3}\.\d+[a-z]\.? .+$/.test(line2)), () => {
         inList = true;
-        return `+ **${line.replace(/(?<=^\d{3}\.\d+\w)/, "**")}`;
+        return `+ **${line.replace(/(?<=^\d{3}\.\d+[a-z]\.?)(?!\.)/, "**")}`;
       }).with(S.when((line2) => /^Example: .+$/.test(line2)), () => `
 ${inList ? "      " : "    "}${line}`).otherwise((line2) => line2);
     }).otherwise(() => outLine);

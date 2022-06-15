@@ -210,12 +210,12 @@ Example: In the same game, Rob is sitting to the right of Alex. Coat of Arms wil
 <p><strong>801.13.</strong> Replacement and prevention effects watch for a particular event to happen and then completely or partially replace that event. The limited range of influence option can cause the modified event to contain instructions that can’t be carried out, in which case the player simply ignores the impossible instructions. See rule 614, “Replacement Effects,” and rule 615, “Prevention Effects.”</p>
 <ul>
 <li>
-<p><strong>801.13</strong>a If a replacement effect tries to cause a spell or ability to affect an object or player outside its controller’s range of influence, that portion of the event does nothing.</p>
+<p><strong>801.13a</strong> If a replacement effect tries to cause a spell or ability to affect an object or player outside its controller’s range of influence, that portion of the event does nothing.</p>
 <pre><code>Example: Alex casts Lava Axe (“Lava Axe deals 5 damage to target player or planeswalker.”) targeting Rob. In response, Rob casts Captain’s Maneuver (“The next X damage that would be dealt to target creature, planeswalker, or player this turn is dealt to another target creature, planeswalker, or player instead.”) with X equal to 3, targeting Carissa. Carissa isn’t in Alex’s range of influence. When Lava Axe resolves, it deals 2 damage to Rob and no damage to Carissa.
 </code></pre>
 </li>
 <li>
-<p><strong>801.13</strong>b If a spell or ability creates an effect that prevents damage that would be dealt by a source, it can affect only sources within the spell or ability’s controller’s range of influence. If a spell or ability creates an effect that prevents damage that would be dealt to a permanent or player, it can affect only permanents and players within the spell or ability’s controller’s range of influence. If a spell or ability creates an effect that prevents damage, but neither the source nor the would-be recipient of the damage is specified, it prevents damage only if both the source and recipient of that damage are within the spell or ability’s controller’s range of influence.</p>
+<p><strong>801.13b</strong> If a spell or ability creates an effect that prevents damage that would be dealt by a source, it can affect only sources within the spell or ability’s controller’s range of influence. If a spell or ability creates an effect that prevents damage that would be dealt to a permanent or player, it can affect only permanents and players within the spell or ability’s controller’s range of influence. If a spell or ability creates an effect that prevents damage, but neither the source nor the would-be recipient of the damage is specified, it prevents damage only if both the source and recipient of that damage are within the spell or ability’s controller’s range of influence.</p>
 <pre><code>Example: Rob is within Alex’s range of influence, but Carissa is not. Alex controls an enchantment that says, “Prevent all damage that would be dealt by creatures.” Carissa attacks Rob with a creature. The creature deals combat damage to Rob.
 
 Example: Rob is within Alex’s range of influence, but Carissa is not. Carissa casts Lightning Blast (“Lightning Blast deals 4 damage to any target.”) targeting Rob. In response, Alex casts Mending Hands (“Prevent the next 4 damage that would be dealt to any target this turn.”) targeting Rob. The damage to Rob is prevented.
@@ -259,22 +259,6 @@ Example: Rob is within Alex’s range of influence, but Carissa is not. Carissa 
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 

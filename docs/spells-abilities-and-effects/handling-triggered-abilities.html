@@ -251,27 +251,27 @@ Example: If an effect reads “When this creature becomes untapped” and the na
 <p><strong>603.10.</strong> Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions, and continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities are exceptions to this rule; the game “looks back in time” to determine if those abilities trigger, using the existence of those abilities and the appearance of objects immediately prior to the event. The list of exceptions is as follows:</p>
 <ul>
 <li>
-<p><strong>603.10</strong>a Some zone-change triggers look back in time. These are leaves-the-battlefield abilities, abilities that trigger when a card leaves a graveyard, and abilities that trigger when an object that all players can see is put into a hand or library.</p>
+<p><strong>603.10a</strong> Some zone-change triggers look back in time. These are leaves-the-battlefield abilities, abilities that trigger when a card leaves a graveyard, and abilities that trigger when an object that all players can see is put into a hand or library.</p>
 <pre><code>Example: Two creatures are on the battlefield along with an artifact that has the ability “Whenever a creature dies, you gain 1 life.” Someone casts a spell that destroys all artifacts, creatures, and enchantments. The artifact’s ability triggers twice, even though the artifact goes to its owner’s graveyard at the same time as the creatures.
 </code></pre>
 </li>
 <li>
-<p><strong>603.10</strong>b Abilities that trigger when a permanent phases out look back in time.</p>
+<p><strong>603.10b</strong> Abilities that trigger when a permanent phases out look back in time.</p>
 </li>
 <li>
-<p><strong>603.10</strong>c Abilities that trigger specifically when an object becomes unattached look back in time.</p>
+<p><strong>603.10c</strong> Abilities that trigger specifically when an object becomes unattached look back in time.</p>
 </li>
 <li>
-<p><strong>603.10</strong>d Abilities that trigger when a player loses control of an object look back in time.</p>
+<p><strong>603.10d</strong> Abilities that trigger when a player loses control of an object look back in time.</p>
 </li>
 <li>
-<p><strong>603.10</strong>e Abilities that trigger when a spell is countered look back in time.</p>
+<p><strong>603.10e</strong> Abilities that trigger when a spell is countered look back in time.</p>
 </li>
 <li>
-<p><strong>603.10</strong>f Abilities that trigger when a player loses the game look back in time.</p>
+<p><strong>603.10f</strong> Abilities that trigger when a player loses the game look back in time.</p>
 </li>
 <li>
-<p><strong>603.10</strong>g Abilities that trigger when a player planeswalks away from a plane look back in time.</p>
+<p><strong>603.10g</strong> Abilities that trigger when a player planeswalks away from a plane look back in time.</p>
 </li>
 </ul>
 <p><strong>603.11.</strong> Some objects have a static ability that’s linked to one or more triggered abilities. (See rule 607, “Linked Abilities.”) These objects combine the abilities into one paragraph, with the static ability first, followed by each triggered ability that’s linked to it. A very few objects have triggered abilities which are written with the trigger condition in the middle of the ability, rather than at the beginning.</p>
@@ -281,7 +281,7 @@ Example: If an effect reads “When this creature becomes untapped” and the na
 <pre><code>Example: Heart-Piercer Manticore has an ability that reads “When Heart-Piercer Manticore enters the battlefield, you may sacrifice another creature. When you do, Heart-Piercer Manticore deals damage equal to that creature’s power to any target.” The reflexive triggered ability triggers only when you sacrifice another creature due to the original triggered ability, and not if you sacrifice a creature for any other reason.
 </code></pre>
 <ul>
-<li><strong>603.12</strong>a Normally, if the trigger event or events occur multiple times during the resolution of the spell or ability that created it, the reflexive triggered ability will trigger once for each of those times. However, if a resolving spell or ability includes a choice to pay a cost “any number of times” and creates a triggered ability that triggers “when [a player] pays [that cost] one or more times,” paying that cost one or more times causes the reflexive triggered ability to trigger only once.</li>
+<li><strong>603.12a</strong> Normally, if the trigger event or events occur multiple times during the resolution of the spell or ability that created it, the reflexive triggered ability will trigger once for each of those times. However, if a resolving spell or ability includes a choice to pay a cost “any number of times” and creates a triggered ability that triggers “when [a player] pays [that cost] one or more times,” paying that cost one or more times causes the reflexive triggered ability to trigger only once.</li>
 </ul>
 
                     </main>
@@ -313,22 +313,6 @@ Example: If an effect reads “When this creature becomes untapped” and the na
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 

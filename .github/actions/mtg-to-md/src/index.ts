@@ -103,9 +103,9 @@ async function main() {
                         return `\n**${line.replace(/(?<=^\d{3}\.\d+\.)/,'**')}`;
                     })
                     
-                    .with(P.when((line : string) : line is string => /^\d{3}\.\d+\w .+$/.test(line)), () => {
+                    .with(P.when((line : string) : line is string => /^\d{3}\.\d+[a-z]\.? .+$/.test(line)), () => {
                         inList = true;
-                        return `+ **${line.replace(/(?<=^\d{3}\.\d+\w)/,'**')}`
+                        return `+ **${line.replace(/(?<=^\d{3}\.\d+[a-z]\.?)(?!\.)/,'**')}`
                     })
 
                     .with(P.when((line : string) : line is string => /^Example: .+$/.test(line)), () => `\n${inList ? '      ':'    '}${line}`)

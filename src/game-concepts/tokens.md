@@ -27,12 +27,12 @@
 **111.9.** Some effects instruct a player to create a legendary token. These may be written “create [name], a . . .” and list characteristics for the token. This is the same as an instruction to create a token with the listed characteristics that has the given name. 
 
 **111.10.** Some effects instruct a player to create a predefined token. These effects use the definition below to determine the characteristics the token is created with. The effect that creates a predefined token may also modify or add to the predefined characteristics.
-+ **111.10**a A Treasure token is a colorless Treasure artifact token with “{T}, Sacrifice this artifact: Add one mana of any color.”
-+ **111.10**b A Food token is a colorless Food artifact token with “{2}, {T}, Sacrifice this artifact: You gain 3 life.”
-+ **111.10**c A Gold token is a colorless Gold artifact token with “Sacrifice this artifact: Add one mana of any color.”
-+ **111.10**d A Walker token is a 2/2 black Zombie creature token named Walker.
-+ **111.10**e A Shard token is a colorless Shard enchantment token with “{2}, Sacrifice this enchantment: Scry 1, then draw a card.”
-+ **111.10**f A Clue token is a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”
-+ **111.10**g A Blood token is a colorless Blood artifact token with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”
++ **111.10a** A Treasure token is a colorless Treasure artifact token with “{T}, Sacrifice this artifact: Add one mana of any color.”
++ **111.10b** A Food token is a colorless Food artifact token with “{2}, {T}, Sacrifice this artifact: You gain 3 life.”
++ **111.10c** A Gold token is a colorless Gold artifact token with “Sacrifice this artifact: Add one mana of any color.”
++ **111.10d** A Walker token is a 2/2 black Zombie creature token named Walker.
++ **111.10e** A Shard token is a colorless Shard enchantment token with “{2}, Sacrifice this enchantment: Scry 1, then draw a card.”
++ **111.10f** A Clue token is a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”
++ **111.10g** A Blood token is a colorless Blood artifact token with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”
 
 **111.11.** A copy of a permanent spell becomes a token as it resolves. The token has the characteristics of the spell that became that token. The token is not “created” for the purposes of any replacement effects or triggered abilities that refer to creating a token.
