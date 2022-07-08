@@ -23,7 +23,7 @@ enum Section {
 }
 
 async function main() {
-    const inFile = await open('mtg-rules/MagicCompRules 20220610.txt');
+    const inFile = await open('mtg-rules/MagicCompRules 20220708.txt');
     const stream = inFile.createReadStream();
 
     const rl = createInterface({

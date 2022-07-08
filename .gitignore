@@ -1,1 +1,5 @@
 .github/actions/mtg-to-md/bookOut
+
+# Added by cargo
+
+/target

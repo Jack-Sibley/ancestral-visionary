@@ -185,7 +185,7 @@ function toKebabCase(str) {
   return str.toLowerCase().replaceAll(" ", "-").replaceAll(",", "").replaceAll("/", "");
 }
 async function main() {
-  const inFile = await (0, import_promises.open)("mtg-rules/MagicCompRules 20220610.txt");
+  const inFile = await (0, import_promises.open)("mtg-rules/MagicCompRules 20220708.txt");
   const stream = inFile.createReadStream();
   const rl = (0, import_readline.createInterface)({
     input: stream,
