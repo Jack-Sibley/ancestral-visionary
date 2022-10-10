@@ -4,7 +4,7 @@
 + **607.1a** An ability printed on an object within another ability that grants that ability to that object is considered to be “printed on” that object for these purposes.
 + **607.1b** An ability printed on either face of a transforming double-faced card (see rule 712) is considered to be “printed on” that object for these purposes, regardless of which face is up.
 + **607.1c** An ability printed on an object that fulfills both criteria described in rule 607.1 is linked to itself.
-+ **607.1d** Abilities printed on two objects can be linked if one object is a token or emblem and the second object was the source of the ability that created the token or emblem. In these cases, the abilities fit the criteria listed for one of the different kinds of linked abilities in rule 607.2 except they are printed on two objects rather than one.
++ **607.1d** Abilities printed on two objects can be linked if one object is a token, emblem, or nontoken permanent and the second object was the source of the ability that either created the token or emblem or put that nontoken permanent onto the battlefield. In these cases, the abilities fit the criteria listed for one of the different kinds of linked abilities in rule 607.2 except they are printed on two objects rather than one.
 
 **607.2.** There are different kinds of linked abilities.
 + **607.2a** If an object has an activated or triggered ability printed on it that instructs a player to exile one or more cards and an ability printed on it that refers either to “the exiled cards” or to cards “exiled with [this object],” these abilities are linked. The second ability refers only to cards in the exile zone that were put there as a result of an instruction to exile them in the first ability.

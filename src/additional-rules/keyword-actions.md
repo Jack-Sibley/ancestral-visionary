@@ -33,7 +33,7 @@
 **701.8.** Discard
 + **701.8a** To discard a card, move it from its owner’s hand to that player’s graveyard.
 + **701.8b** By default, effects that cause a player to discard a card allow the affected player to choose which card to discard. Some effects, however, require a random discard or allow another player to choose which card is discarded.
-+ **701.8c** If a card is discarded, but an effect causes it to be put into a hidden zone instead of into its owner’s graveyard without being revealed, all values of that card’s characteristics are considered to be undefined. If a card is discarded this way to pay a cost that specifies a characteristic about the discarded card, that cost payment is illegal; the game returns to the moment before the cost was paid (see rule 727, “Handling Illegal Actions”).
++ **701.8c** If a card is discarded, but an effect causes it to be put into a hidden zone instead of into its owner’s graveyard without being revealed, all values of that card’s characteristics are considered to be undefined. If a card is discarded this way to pay a cost that specifies a characteristic about the discarded card, that cost payment is illegal; the game returns to the moment before the cost was paid (see rule 728, “Handling Illegal Actions”).
 
 **701.9.** Double
 + **701.9a** Doubling a creature’s power and/or toughness creates a continuous effect. This effect modifies that creature’s power and/or toughness but doesn’t set those characteristics to a specific value. See rule 613.4c.
@@ -53,6 +53,7 @@
 + **701.10e** If a card in one zone is exchanged with a card in a different zone, and either of them is attached to an object, that card stops being attached to that object and the other card becomes attached to that object.
 + **701.10f** If a spell or ability instructs a player to simply exchange two zones, and one of the zones is empty, the cards in the zones are still exchanged.
 + **701.10g** A spell or ability may instruct a player to exchange two numerical values. In such an exchange, each value becomes equal to the previous value of the other. If either of those values is a life total, the affected player gains or loses the amount of life necessary to equal the other value. Replacement effects may modify this gain or loss, and triggered abilities may trigger on it. A player who can’t gain life can’t be given a higher life total this way, and a player who can’t lose life can’t be given a lower life total this way (see rules 119.7–8). If either of those values is a power or toughness, a continuous effect is created setting that power or toughness to the other value (see rule 613.4b). This rule does not apply to spells and abilities that switch a creature’s power and toughness.
++ **701.10h** One card (Exchange of Words) instructs a player to exchange the text boxes of two creatures. This creates a text-changing effect (see rule 612, “Text-Changing Effects”). In such an exchange, the rules text of each permanent becomes the previous rules text of the other.
 
 **701.11.** Exile
 + **701.11a** To exile an object, move it to the exile zone from wherever it is. See rule 406, “Exile.”
@@ -256,5 +257,13 @@
 + **701.47a** Certain abilities instruct a permanent to connive. To do so, that permanent’s controller draws a card, then discards a card. If a nonland card is discarded this way, that player puts a +1/+1 counter on the conniving permanent.
 + **701.47b** A permanent “connives” after the process described in rule 701.47a is complete, even if some or all of those actions were impossible.
 + **701.47c** If a permanent changes zones before an effect causes it to connive, its last known information is used to determine which object connived and who controlled it.
-+ **701.47d**  If multiple permanents are instructed to connive at the same time, the first player in APNAP order who controls one or more of those permanents chooses one of them and it connives. Then if any permanents remain on the battlefield which have been instructed to connive and have not done so, this process is repeated.
++ **701.47d** If multiple permanents are instructed to connive at the same time, the first player in APNAP order who controls one or more of those permanents chooses one of them and it connives. Then if any permanents remain on the battlefield which have been instructed to connive and have not done so, this process is repeated.
 + **701.47e** Connive N is a variant of connive. The permanent’s controller draws N cards, discards N cards, then puts a number of +1/+1 counters on the permanent equal to the number of nonland cards discarded this way.
+
+**701.48.** Open an Attraction
++ **701.48a** A player may open an Attraction only during a game in which that player is playing with an Attraction deck (see rule 718, “Attraction Cards”).
++ **701.48b** To open an Attraction, move the top card of your Attraction deck off the Attraction deck, turn it face up, and put it onto the battlefield under your control.
++ **701.48c** An ability which triggers whenever a player opens an Attraction triggers when that player puts an Attraction card onto the battlefield while performing the instruction in the above rule. If an effect prevents that Attraction from entering the battlefield or replaces entering the battlefield with another event, that ability doesn’t trigger.
+
+**701.49.** Roll to Visit Your Attractions
++ **701.49a** To roll to visit your Attractions, roll a six-sided die. Then if you control one or more Attractions with a number lit up that is equal to that result, each of those Attractions has been “visited” and its visit ability triggers. See rule 718, “Attraction Cards,” and rule 702.159, “Visit.”

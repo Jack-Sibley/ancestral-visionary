@@ -11,7 +11,7 @@
     Example: The life modifier of a player’s vanguard card is -3. That player’s starting life total is 17.
 
 **902.5.** Each player’s starting hand size is seven cards, as modified by the hand modifier of their vanguard card.
-+ **902.5a** If a player takes a mulligan in a Vanguard game, just like in a normal game, that player shuffles their hand back into their library, then draws a new hand equal to their starting hand size. (In a multiplayer game, a player’s first mulligan is for the same number of cards as they had before.) See rule 103.4.
++ **902.5a** If a player takes a mulligan in a Vanguard game, just like in a normal game, that player shuffles their hand back into their library, then draws a new hand equal to their starting hand size. (In a multiplayer game, a player’s first mulligan is for the same number of cards as they had before.) See rule 103.5.
 
       Example: The hand modifier of a player’s vanguard card is +2. That player starts the game with a hand of 9 cards. If the player takes a mulligan three times before keeping, they draw a new hand of nine cards and put three of those on the bottom of their library.
 + **902.5b** A player’s maximum hand size is seven, as modified by the hand modifier of their vanguard card.

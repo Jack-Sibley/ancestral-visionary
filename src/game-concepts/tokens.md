@@ -34,5 +34,6 @@
 + **111.10e** A Shard token is a colorless Shard enchantment token with “{2}, Sacrifice this enchantment: Scry 1, then draw a card.”
 + **111.10f** A Clue token is a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”
 + **111.10g** A Blood token is a colorless Blood artifact token with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”
++ **111.10h** A Powerstone token is a colorless Powerstone artifact token with “{T}: Add {C}. This mana can’t be spent to cast a nonartifact spell.”
 
 **111.11.** A copy of a permanent spell becomes a token as it resolves. The token has the characteristics of the spell that became that token. The token is not “created” for the purposes of any replacement effects or triggered abilities that refer to creating a token.

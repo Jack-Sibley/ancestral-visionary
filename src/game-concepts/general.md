@@ -8,6 +8,7 @@
 + **100.2a** In constructed play (a way of playing in which each player creates their own deck ahead of time), each deck has a minimum deck size of 60 cards. A constructed deck may contain any number of basic land cards and no more than four of any card with a particular English name other than basic land cards. For the purposes of deck construction, cards with interchangeable names have the same English name (see rule 201.3).
 + **100.2b** In limited play (a way of playing in which each player gets the same quantity of unopened Magic product such as booster packs and creates their own deck using only this product and basic land cards), each deck has a minimum deck size of 40 cards. A limited deck may contain as many duplicates of a card as are included with the product.
 + **100.2c** Commander decks are subject to additional deckbuilding restrictions and requirements. See rule 903, “Commander,” for details.
++ **100.2d** Some formats and casual play variants allow players to use a supplementary deck of nontraditional Magic cards (see rule 108.2a). These supplementary decks have their own deck construction rules. See rule 718, “Attraction Cards;” rule 901, “Planechase;” and rule 904, “Archenemy.”
 
 **100.3.** Some cards require coins or traditional dice. Some casual variants require additional items, such as specially designated cards, nontraditional Magic cards, and specialized dice.
 
@@ -23,4 +24,4 @@
 + **100.6a** Tournaments usually consist of a series of matches. A two-player match usually involves playing until one player has won two games. A multiplayer match usually consists of only one game.
 + **100.6b** Players can use the Magic Store & Event Locator at Wizards.com/Locator to find tournaments in their area.
 
-**100.7.** Certain promotional cards and cards in the Unglued, Unhinged, and Unstable sets are printed with a silver border. These cards are intended for casual play and may have features and text that aren’t covered by these rules.
+**100.7.** Certain cards are intended for casual play and may have features and text that aren’t covered by these rules. These include Mystery Booster playtest cards, promotional cards and cards in “Un-sets” that were printed with a silver border, and cards in the Unfinity™ expansion that have an acorn symbol at the bottom of the card.

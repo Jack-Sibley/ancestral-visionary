@@ -6,9 +6,9 @@
 + **904.2a** One of the teams consists of exactly one player, who is designated the archenemy.
 + **904.2b** The other team consists of any number of players.
 
-**904.3.** In addition to the normal game materials, the archenemy needs a scheme deck of at least twenty scheme cards. A scheme deck may contain no more than two of any card with a particular English name. (See rule 313, “Schemes.”)
+**904.3.** In addition to the normal game materials, the archenemy needs a supplementary scheme deck of at least twenty scheme cards. A scheme deck may contain no more than two of any card with a particular English name. (See rule 313, “Schemes.”)
 
-**904.4.** At the start of the game, the archenemy shuffles their scheme deck so that the cards are in a random order. The scheme deck is placed face down next to the archenemy’s library. All scheme cards remain in the command zone throughout the game, both while they’re part of a scheme deck and while they’re face up.
+**904.4.** All scheme cards remain in the command zone throughout the game, both while they’re part of a scheme deck and while they’re face up.
 
 **904.5.** The archenemy’s starting life total is 40. Each other player’s starting life total is 20.
 

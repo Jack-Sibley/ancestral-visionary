@@ -2,6 +2,7 @@ import { appendFile, open, stat, mkdir} from "fs/promises";
 import { createInterface } from "readline";
 import { join, dirname } from "path";
 import { match, P} from "ts-pattern";
+import { decodeStream, encodeStream } from "iconv-lite";
 
 async function ensureFile(filePath: string) {
     let dir = dirname(filePath);
@@ -23,8 +24,9 @@ enum Section {
 }
 
 async function main() {
-    const inFile = await open('mtg-rules/MagicCompRules 20220708.txt');
-    const stream = inFile.createReadStream();
+    const inFile = await open('mtg-rules/Comprehensive Rules 20221007.txt');
+    const stream = inFile.createReadStream()
+        .pipe(decodeStream("win1251"));
 
     const rl = createInterface({
         input: stream,

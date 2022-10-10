@@ -19,6 +19,7 @@
     "await-sleep": "^0.0.1",
     "esbuild": "^0.14.42",
     "fs-extra": "^10.1.0",
+    "iconv-lite": "^0.6.3",
     "ts-pattern": "^4.0.2"
   }
 }

@@ -34,7 +34,7 @@
 + **608.3a** If the object that’s resolving has no targets, it becomes a permanent and enters the battlefield under the control of the spell’s controller.
 + **608.3b** If the object that’s resolving has a target, it checks whether the target is still legal, as described in 608.2b. If a spell with an illegal target is a bestowed Aura spell (see rule 702.103e) or a mutating creature spell (see rule 702.140b), it becomes a creature spell and will resolve as described in rule 608.3a. Otherwise, the spell doesn’t resolve. It is removed from the stack and put into its owner’s graveyard.
 + **608.3c** If the object that’s resolving is an Aura spell, it becomes a permanent and is put onto the battlefield under the control of the spell’s controller attached to the player or object it was targeting.
-+ **608.3d** If the object that’s resolving is a mutating creature spell, the object representing that spell merges with the permanent it is targeting (see rule 724, “Merging with Permanents”).
++ **608.3d** If the object that’s resolving is a mutating creature spell, the object representing that spell merges with the permanent it is targeting (see rule 725, “Merging with Permanents”).
 + **608.3e** If a permanent spell resolves but its controller can’t put it onto the battlefield, that player puts it into its owner’s graveyard.
 
       Example: Worms of the Earth has the ability “Lands can’t enter the battlefield.” Clone says “You may have Clone enter the battlefield as a copy of any creature on the battlefield.” If a player casts Clone and chooses to copy Dryad Arbor (a land creature) while Worms of the Earth is on the battlefield, Clone can’t enter the battlefield from the stack. It’s put into its owner’s graveyard.
